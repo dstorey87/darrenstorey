@@ -19,7 +19,7 @@ jobs:
       
       - name: Install 🔧 # Install dependencies
         run: |
-          npm install
+          npm install --force
       
       - name: Check Format
         run: |
