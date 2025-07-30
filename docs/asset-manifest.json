@@ -32,8 +32,5 @@
     "148.b3b9a0d2.chunk.css.map": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css.map",
     "148.a13fe3b7.chunk.js.map": "/darrenstorey/static/js/148.a13fe3b7.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.545c48cc.css",
-    "static/js/main.d7640269.js"
-  ]
+  "entrypoints": ["static/css/main.545c48cc.css", "static/js/main.d7640269.js"]
 }
