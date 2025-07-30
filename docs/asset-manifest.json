@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/darrenstorey/static/css/main.545c48cc.css",
-    "main.js": "/darrenstorey/static/js/main.d7640269.js",
-    "static/css/290.9d91cb35.chunk.css": "/darrenstorey/static/css/290.9d91cb35.chunk.css",
-    "static/js/290.813ab021.chunk.js": "/darrenstorey/static/js/290.813ab021.chunk.js",
-    "static/css/148.b3b9a0d2.chunk.css": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css",
-    "static/js/148.a13fe3b7.chunk.js": "/darrenstorey/static/js/148.a13fe3b7.chunk.js",
+    "main.css": "/darrenstorey/static/css/main.50b1cbf1.css",
+    "main.js": "/darrenstorey/static/js/main.0f54df82.js",
+    "static/css/64.bba8fa55.chunk.css": "/darrenstorey/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/darrenstorey/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/darrenstorey/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/darrenstorey/static/js/769.bda0d7b7.chunk.js",
     "static/media/stanfordLogo.png": "/darrenstorey/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/harvardLogo.png": "/darrenstorey/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
     "static/media/Montserrat-Regular.ttf": "/darrenstorey/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -25,12 +25,15 @@
     "static/media/nextuLogo.webp": "/darrenstorey/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.545c48cc.css.map": "/darrenstorey/static/css/main.545c48cc.css.map",
-    "main.d7640269.js.map": "/darrenstorey/static/js/main.d7640269.js.map",
-    "290.9d91cb35.chunk.css.map": "/darrenstorey/static/css/290.9d91cb35.chunk.css.map",
-    "290.813ab021.chunk.js.map": "/darrenstorey/static/js/290.813ab021.chunk.js.map",
-    "148.b3b9a0d2.chunk.css.map": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css.map",
-    "148.a13fe3b7.chunk.js.map": "/darrenstorey/static/js/148.a13fe3b7.chunk.js.map"
+    "main.50b1cbf1.css.map": "/darrenstorey/static/css/main.50b1cbf1.css.map",
+    "main.0f54df82.js.map": "/darrenstorey/static/js/main.0f54df82.js.map",
+    "64.bba8fa55.chunk.css.map": "/darrenstorey/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/darrenstorey/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/darrenstorey/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/darrenstorey/static/js/769.bda0d7b7.chunk.js.map"
   },
-  "entrypoints": ["static/css/main.545c48cc.css", "static/js/main.d7640269.js"]
+  "entrypoints": [
+    "static/css/main.50b1cbf1.css",
+    "static/js/main.0f54df82.js"
+  ]
 }
