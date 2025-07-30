@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "colorthief": "latest",
+    "copyfiles": "latest",
     "gh-pages": "latest",
     "jest-canvas-mock": "latest",
     "lottie-react": "latest",
@@ -14,8 +15,7 @@
     "react-headroom": "latest",
     "react-scripts": "latest",
     "react-twitter-embed": "latest",
-    "sass": "latest",
-    "copyfiles": "latest"
+    "sass": "latest"
   },
   "scripts": {
     "predeploy": "npm run build-docs",
@@ -53,6 +53,6 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "latest",
     "dotenv": "latest",
-    "prettier": "latest"
+    "prettier": "^3.6.2"
   }
 }
