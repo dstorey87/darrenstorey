@@ -15,31 +15,23 @@ const splashScreen = {
 
 // Summary And Greeting Section
 
-const illustration = {
-  animated: true // Set to false to use static SVG
-};
-
 const greeting = {
   username: "Darren Storey",
-  title: "Hello World!, My Name is Darren",
+  title: "CloudOps, Storage & Automation Specialist",
   subTitle: emoji(
-    "A passionate Devops and Cloud Engineer 🚀 I have experience in developing applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Award-winning engineer delivering multi-petabyte AWS, FinOps, and platform automation for FTSE 100 and blue-chip firms — 5+ years remote, £10M+ saved annually, and known for high-uptime, secure, and cost-efficient cloud estates."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "/Darren_Storey_fullstack_CV_v2_extended.pdf", // Place PDF in /public
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dstorey87",
+  linkedin: "https://www.linkedin.com/in/darren-storey/",
+  gmail: "darrenstorey87@gmail.com",
+  facebook: "https://www.facebook.com/DarrenStorey87",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,73 +40,129 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Core Expertise & Technologies",
+  subTitle: "AWARD-WINNING DEVOPS & CLOUDOPS SPECIALIST WITH DEEP AWS EXPERTISE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "☁️ Architect and manage multi-petabyte AWS cloud infrastructure with S3, FSx, EC2, RDS, Lambda, and VPC"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("🔧 Design and implement CI/CD pipelines with XL Release, Jenkins, Terraform, and automated compliance gates"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "🛡️ Deliver secure, compliant cloud solutions meeting FCA, GDPR, and ISO 27001 standards"
+    ),
+    emoji("💰 Drive £10M+ annual cost savings through FinOps optimization and automated resource management"),
+    emoji("🚀 Lead DevOps transformation, incident response, and 24/7 platform operations for critical systems"),
+    emoji("👥 Mentor teams, build self-service tooling, and champion DevOps culture across organizations")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    // Cloud Platforms - Primary Focus
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws",
+      style: { color: "#FF9900" }
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft",
+      style: { color: "#0078D4" }
+    },
+    
+    // Infrastructure as Code
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-code-branch",
+      style: { color: "#623CE4" }
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Puppet",
+      fontAwesomeClassname: "fas fa-server",
+      style: { color: "#FFAE1A" }
+    },
+    
+    // CI/CD & DevOps
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fas fa-cogs",
+      style: { color: "#D33833" }
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt",
+      style: { color: "#F05032" }
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker",
+      style: { color: "#2496ED" }
+    },
+    
+    // Programming & Scripting
+    {
+      skillName: "PowerShell",
+      fontAwesomeClassname: "fas fa-terminal",
+      style: { color: "#012456" }
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
+      style: { color: "#3776AB" }
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
+      style: { color: "#F7DF1E" }
+    },
+    
+    // Databases & Storage
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database",
+      style: { color: "#336791" }
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "S3",
+      fontAwesomeClassname: "fas fa-cloud",
+      style: { color: "#FF9900" }
+    },
+    
+    // Monitoring & Security
+    {
+      skillName: "CloudWatch",
+      fontAwesomeClassname: "fas fa-chart-line",
+      style: { color: "#FF9900" }
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Security",
+      fontAwesomeClassname: "fas fa-shield-alt",
+      style: { color: "#28A745" }
+    },
+    
+    // Networking
+    {
+      skillName: "VPC",
+      fontAwesomeClassname: "fas fa-network-wired",
+      style: { color: "#FF9900" }
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux",
+      style: { color: "#FCC624" }
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Windows",
+      fontAwesomeClassname: "fab fa-windows",
+      style: { color: "#0078D6" }
     },
+    
+    // Additional Tools
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "ServiceNow",
+      fontAwesomeClassname: "fas fa-ticket-alt",
+      style: { color: "#62D84E" }
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -174,29 +222,104 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Storage DevOps & CloudOps Engineer",
+      company: "Aviva",
+      companylogo: require("./assets/images/avivaLogo.png"),
+      date: "May 2024 – Present",
+      location: "Remote, UK & Global Teams",
+      desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "🏗️ Architected multi-petabyte AWS infrastructure (S3, FSx, EC2, RDS, Lambda, VPC) with Windows DFS, Linux systems, and hybrid file architectures ensuring FCA, GDPR & ISO 27001 compliance",
+        "🔄 Automated end-to-end release pipelines using XebiaLabs XL Release, Jenkins, Azure DevOps, Git, and Stash with ServiceNow approval gates, eliminating manual maintenance windows",
+        "📦 Orchestrated blue/green and canary deployments via Terraform and Puppet modules with drift detection, environment tagging, and compliance controls",
+        "⚡ Automated tenancy provisioning, patching, and DR simulations using PowerShell, Groovy, Python reducing operational overhead by 60%",
+        "🛡️ Managed 24/7 on-call and major-incident response as Storage SME, leading root-cause analysis, forensic logging, and post-mortems with <5 min MTTR",
+        "📊 Implemented observability fabric using CloudWatch metrics, custom health probes, and DataDog dashboards driving automated scaling actions",
+        "💰 Drove £10M+ annual cost savings via storage tiering, right-sizing, and workload optimization collaborating with finance and procurement teams",
+        "🚀 Migrated 4PB of sensitive data to AWS-native services, coordinating with AWS Enterprise Support for DR validation and rollback planning"
+      ],
+      technologies: ["AWS", "Terraform", "Jenkins", "XL Release", "PowerShell", "Python", "ServiceNow", "CloudWatch", "S3", "FSx", "EC2", "RDS", "Lambda"]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Storage SME & Technical Analyst",
+      company: "Aviva",
+      companylogo: require("./assets/images/avivaLogo.png"),
+      date: "June 2021 – May 2024",
+      location: "Remote, UK & Global Teams",
+      desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
+      descBullets: [
+        "🏆 Resolved global Windows Server 2019 file lock bug, winning internal company award and stabilizing high-risk actuarial workloads across all Aviva business units",
+        "☁️ Managed multi-petabyte AWS storage infrastructure (S3, FSx, EBS) supporting regulated SaaS and financial platforms in production and preproduction environments",
+        "🔍 Led Root Cause Analysis for major incidents as single point of contact during platform crises, coordinating technical recovery and stakeholder communications",
+        "📈 Delivered legacy system migrations, replatforming 4PB of sensitive financial data into AWS-native services maintaining 99.9% uptime and data integrity",
+        "💡 Automated critical operations using PowerShell, Groovy, and Python including backup lifecycle, tenancy management, AMI generation, and access controls",
+        "🔒 Maintained platform security and compliance with FCA, GDPR, and ISO 27001 operating in heavily regulated actuarial compute environment",
+        "📋 Built self-service runbooks and mentored 6-person offshore support team through shadow shifts and knowledge transfers",
+        "🎯 Ensured Prophet and actuarial tools remained operational for quarterly/annual financial reporting through proactive health checks and capacity planning"
+      ],
+      technologies: ["AWS", "PowerShell", "Groovy", "Python", "S3", "FSx", "EBS", "CloudWatch", "ServiceNow", "VMware", "Windows Server"]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technical Engineer",
+      company: "Benenden Health",
+      companylogo: require("./assets/images/benendendLogo.png"),
+      date: "October 2017 – July 2019",
+      location: "York, UK",
+      desc: "Project workstream lead for Azure migration and Office 365 transformation, supporting secure data transitions and hybrid cloud operations for healthcare organization.",
+      descBullets: [
+        "🌐 Led Azure migration projects and Active Directory transformation initiatives ensuring seamless transition to cloud infrastructure",
+        "☁️ Administered Azure, Office 365, VMware, and Windows Server environments supporting critical healthcare operations",
+        "🔧 Deployed and configured Cisco switch and wireless network infrastructure with comprehensive DR operations for multi-site environments",
+        "📚 Delivered internal training programs, O365 best practices, and security awareness education ensuring GDPR compliance",
+        "🛡️ Managed technical documentation, process improvement initiatives, and security compliance frameworks (GDPR, ITIL)"
+      ],
+      technologies: ["Azure", "Office 365", "VMware", "Windows Server", "Cisco", "Active Directory", "GDPR", "ITIL"]
+    },
+    {
+      role: "Systems Administrator",
+      company: "Pitman Training Group",
+      companylogo: require("./assets/images/pitmanLogo.png"),
+      date: "April 2017 – September 2017",
+      location: "Wetherby, UK",
+      desc: "Managed Office 365 and Azure infrastructure across 50+ global franchises, implementing automation and security policies for distributed education network.",
+      descBullets: [
+        "🌍 Managed Office 365 and Azure across 50+ global franchises ensuring consistent performance and 99.5% availability",
+        "⚙️ Automated deployment and provisioning tasks using PowerShell scripting, reducing manual effort by 40% and improving configuration consistency",
+        "📊 Monitored service health via Microsoft 365 admin center and Azure activity logs, maintaining rapid response to performance issues",
+        "🔐 Enforced security policies including password rotation, group permissions, and audit logging meeting GDPR compliance standards",
+        "💼 Supported Microsoft Dynamics CRM 2016 integration with Azure AD and comprehensive user access governance"
+      ],
+      technologies: ["Office 365", "Azure", "PowerShell", "Microsoft Dynamics CRM", "Azure AD", "GDPR"]
+    },
+    {
+      role: "IT Network Engineer",
+      company: "York Data Services",
+      companylogo: require("./assets/images/yorkDataLogo.png"),
+      date: "September 2015 – April 2017",
+      location: "York, UK",
+      desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
+      descBullets: [
+        "🏗️ Designed, built, and managed secure multi-site business networks including broadband/fiber rollout, VDSL, leased lines, and VPNs",
+        "📧 Administered and migrated Microsoft Exchange and Office 365 environments for dozens of clients ensuring zero-downtime transitions",
+        "🌐 Provisioned domains, DNS, VPNs, remote desktop, and cloud services enabling digital transformation for growing businesses",
+        "🏇 Provided critical support for major events including York Racecourse, ensuring high-availability infrastructure during peak operations",
+        "💾 Supported Windows Server, SQL, VMware, VEEAM, Cisco, and Juniper environments maintaining business continuity and disaster recovery"
+      ],
+      technologies: ["Windows Server", "Office 365", "Exchange", "VMware", "VEEAM", "Cisco", "Juniper", "SQL Server"]
+    },
+    {
+      role: "IT Support Trainee",
+      company: "Myscience.co",
+      companylogo: require("./assets/images/myscienceLogo.png"),
+      date: "April 2013 – August 2015",
+      location: "York, UK",
+      desc: "Supported multi-platform environments and cloud migrations while developing expertise in virtualization and mobile device management.",
+      descBullets: [
+        "💻 Supported staff and delegates on Microsoft, Apple, and Android platforms including Office 365 and cloud-based services",
+        "🖥️ Managed ESXi virtualization, backup systems, and iOS MDM coordinating seamless O365 migrations",
+        "📖 Delivered comprehensive user training, technical documentation, and onboarding support for cloud and remote services"
+      ],
+      technologies: ["Office 365", "ESXi", "iOS MDM", "Microsoft", "Apple", "Android"]
     }
   ]
 };
@@ -371,9 +494,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Ready to discuss DevOps transformation or cloud optimization? Let's connect and explore opportunities.",
+  number: "+44 7838 652859",
+  email_address: "darrenstorey87@gmail.com"
 };
 
 // Twitter Section
