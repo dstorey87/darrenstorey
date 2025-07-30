@@ -13,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-easy-emoji": "latest",
     "react-headroom": "latest",
+    "react-reveal": "^1.2.2",
     "react-scripts": "latest",
     "react-twitter-embed": "latest",
     "sass": "latest"
