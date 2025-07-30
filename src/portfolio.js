@@ -41,18 +41,27 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Core Expertise & Technologies",
-  subTitle: "AWARD-WINNING DEVOPS & CLOUDOPS SPECIALIST WITH DEEP AWS EXPERTISE",
+  subTitle:
+    "AWARD-WINNING DEVOPS & CLOUDOPS SPECIALIST WITH DEEP AWS EXPERTISE",
   skills: [
     emoji(
       "☁️ Architect and manage multi-petabyte AWS cloud infrastructure with S3, FSx, EC2, RDS, Lambda, and VPC"
     ),
-    emoji("🔧 Design and implement CI/CD pipelines with XL Release, Jenkins, Terraform, and automated compliance gates"),
+    emoji(
+      "🔧 Design and implement CI/CD pipelines with XL Release, Jenkins, Terraform, and automated compliance gates"
+    ),
     emoji(
       "🛡️ Deliver secure, compliant cloud solutions meeting FCA, GDPR, and ISO 27001 standards"
     ),
-    emoji("💰 Drive £10M+ annual cost savings through FinOps optimization and automated resource management"),
-    emoji("🚀 Lead DevOps transformation, incident response, and 24/7 platform operations for critical systems"),
-    emoji("👥 Mentor teams, build self-service tooling, and champion DevOps culture across organizations")
+    emoji(
+      "💰 Drive £10M+ annual cost savings through FinOps optimization and automated resource management"
+    ),
+    emoji(
+      "🚀 Lead DevOps transformation, incident response, and 24/7 platform operations for critical systems"
+    ),
+    emoji(
+      "👥 Mentor teams, build self-service tooling, and champion DevOps culture across organizations"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,106 +72,106 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws",
-      style: { color: "#FF9900" }
+      style: {color: "#FF9900"}
     },
     {
       skillName: "Azure",
       fontAwesomeClassname: "fab fa-microsoft",
-      style: { color: "#0078D4" }
+      style: {color: "#0078D4"}
     },
-    
+
     // Infrastructure as Code
     {
       skillName: "Terraform",
       fontAwesomeClassname: "fas fa-code-branch",
-      style: { color: "#623CE4" }
+      style: {color: "#623CE4"}
     },
     {
       skillName: "Puppet",
       fontAwesomeClassname: "fas fa-server",
-      style: { color: "#FFAE1A" }
+      style: {color: "#FFAE1A"}
     },
-    
+
     // CI/CD & DevOps
     {
       skillName: "Jenkins",
       fontAwesomeClassname: "fas fa-cogs",
-      style: { color: "#D33833" }
+      style: {color: "#D33833"}
     },
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt",
-      style: { color: "#F05032" }
+      style: {color: "#F05032"}
     },
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker",
-      style: { color: "#2496ED" }
+      style: {color: "#2496ED"}
     },
-    
+
     // Programming & Scripting
     {
       skillName: "PowerShell",
       fontAwesomeClassname: "fas fa-terminal",
-      style: { color: "#012456" }
+      style: {color: "#012456"}
     },
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python",
-      style: { color: "#3776AB" }
+      style: {color: "#3776AB"}
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
-      style: { color: "#F7DF1E" }
+      style: {color: "#F7DF1E"}
     },
-    
+
     // Databases & Storage
     {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database",
-      style: { color: "#336791" }
+      style: {color: "#336791"}
     },
     {
       skillName: "S3",
       fontAwesomeClassname: "fas fa-cloud",
-      style: { color: "#FF9900" }
+      style: {color: "#FF9900"}
     },
-    
+
     // Monitoring & Security
     {
       skillName: "CloudWatch",
       fontAwesomeClassname: "fas fa-chart-line",
-      style: { color: "#FF9900" }
+      style: {color: "#FF9900"}
     },
     {
       skillName: "Security",
       fontAwesomeClassname: "fas fa-shield-alt",
-      style: { color: "#28A745" }
+      style: {color: "#28A745"}
     },
-    
+
     // Networking
     {
       skillName: "VPC",
       fontAwesomeClassname: "fas fa-network-wired",
-      style: { color: "#FF9900" }
+      style: {color: "#FF9900"}
     },
     {
       skillName: "Linux",
       fontAwesomeClassname: "fab fa-linux",
-      style: { color: "#FCC624" }
+      style: {color: "#FCC624"}
     },
     {
       skillName: "Windows",
       fontAwesomeClassname: "fab fa-windows",
-      style: { color: "#0078D6" }
+      style: {color: "#0078D6"}
     },
-    
+
     // Additional Tools
     {
       skillName: "ServiceNow",
       fontAwesomeClassname: "fas fa-ticket-alt",
-      style: { color: "#62D84E" }
+      style: {color: "#62D84E"}
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -238,7 +247,21 @@ const workExperiences = {
         "💰 Drove £10M+ annual cost savings via storage tiering, right-sizing, and workload optimization collaborating with finance and procurement teams",
         "🚀 Migrated 4PB of sensitive data to AWS-native services, coordinating with AWS Enterprise Support for DR validation and rollback planning"
       ],
-      technologies: ["AWS", "Terraform", "Jenkins", "XL Release", "PowerShell", "Python", "ServiceNow", "CloudWatch", "S3", "FSx", "EC2", "RDS", "Lambda"]
+      technologies: [
+        "AWS",
+        "Terraform",
+        "Jenkins",
+        "XL Release",
+        "PowerShell",
+        "Python",
+        "ServiceNow",
+        "CloudWatch",
+        "S3",
+        "FSx",
+        "EC2",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       role: "Storage SME & Technical Analyst",
@@ -257,7 +280,19 @@ const workExperiences = {
         "📋 Built self-service runbooks and mentored 6-person offshore support team through shadow shifts and knowledge transfers",
         "🎯 Ensured Prophet and actuarial tools remained operational for quarterly/annual financial reporting through proactive health checks and capacity planning"
       ],
-      technologies: ["AWS", "PowerShell", "Groovy", "Python", "S3", "FSx", "EBS", "CloudWatch", "ServiceNow", "VMware", "Windows Server"]
+      technologies: [
+        "AWS",
+        "PowerShell",
+        "Groovy",
+        "Python",
+        "S3",
+        "FSx",
+        "EBS",
+        "CloudWatch",
+        "ServiceNow",
+        "VMware",
+        "Windows Server"
+      ]
     },
     {
       role: "Technical Engineer",
@@ -273,7 +308,16 @@ const workExperiences = {
         "📚 Delivered internal training programs, O365 best practices, and security awareness education ensuring GDPR compliance",
         "🛡️ Managed technical documentation, process improvement initiatives, and security compliance frameworks (GDPR, ITIL)"
       ],
-      technologies: ["Azure", "Office 365", "VMware", "Windows Server", "Cisco", "Active Directory", "GDPR", "ITIL"]
+      technologies: [
+        "Azure",
+        "Office 365",
+        "VMware",
+        "Windows Server",
+        "Cisco",
+        "Active Directory",
+        "GDPR",
+        "ITIL"
+      ]
     },
     {
       role: "Systems Administrator",
@@ -289,7 +333,14 @@ const workExperiences = {
         "🔐 Enforced security policies including password rotation, group permissions, and audit logging meeting GDPR compliance standards",
         "💼 Supported Microsoft Dynamics CRM 2016 integration with Azure AD and comprehensive user access governance"
       ],
-      technologies: ["Office 365", "Azure", "PowerShell", "Microsoft Dynamics CRM", "Azure AD", "GDPR"]
+      technologies: [
+        "Office 365",
+        "Azure",
+        "PowerShell",
+        "Microsoft Dynamics CRM",
+        "Azure AD",
+        "GDPR"
+      ]
     },
     {
       role: "IT Network Engineer",
@@ -305,7 +356,16 @@ const workExperiences = {
         "🏇 Provided critical support for major events including York Racecourse, ensuring high-availability infrastructure during peak operations",
         "💾 Supported Windows Server, SQL, VMware, VEEAM, Cisco, and Juniper environments maintaining business continuity and disaster recovery"
       ],
-      technologies: ["Windows Server", "Office 365", "Exchange", "VMware", "VEEAM", "Cisco", "Juniper", "SQL Server"]
+      technologies: [
+        "Windows Server",
+        "Office 365",
+        "Exchange",
+        "VMware",
+        "VEEAM",
+        "Cisco",
+        "Juniper",
+        "SQL Server"
+      ]
     },
     {
       role: "IT Support Trainee",
@@ -319,7 +379,14 @@ const workExperiences = {
         "🖥️ Managed ESXi virtualization, backup systems, and iOS MDM coordinating seamless O365 migrations",
         "📖 Delivered comprehensive user training, technical documentation, and onboarding support for cloud and remote services"
       ],
-      technologies: ["Office 365", "ESXi", "iOS MDM", "Microsoft", "Apple", "Android"]
+      technologies: [
+        "Office 365",
+        "ESXi",
+        "iOS MDM",
+        "Microsoft",
+        "Apple",
+        "Android"
+      ]
     }
   ]
 };
