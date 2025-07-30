@@ -1,0 +1,12 @@
+{
+    "gitdoc.enabled": true,
+    "gitdoc.autoCommitDelay": 5000,
+    "gitdoc.commitValidationLevel": "none",
+    "gitdoc.commitMessageFormat": "Auto-save: Updated portfolio ${date}",
+    "gitdoc.autoPush": "onCommit",
+    "gitdoc.pullOnOpen": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
+}
