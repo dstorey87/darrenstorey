@@ -242,13 +242,13 @@ const educationInfo = {
     {
       schoolName: "York College",
       logo: require("./assets/images/skill.svg"), // Using generic education icon
-      subHeader: "BTEC Level 3 Extended Diploma in IT",
-      duration: "September 2011 - June 2013",
-      desc: "Comprehensive IT education covering software development, networking, and system administration fundamentals.",
+      subHeader: "BTEC National Diploma in Software Development",
+      duration: "2003 - 2005",
+      desc: "2-year diploma program focused on software development fundamentals and practical programming skills.",
       descBullets: [
-        "Distinction* in Software Development modules",
-        "Merit in Networking and System Administration",
-        "Completed final year project on database management systems"
+        "Comprehensive software development curriculum covering programming fundamentals",
+        "Practical experience with software engineering principles and methodologies",
+        "Foundation in systems analysis, design, and development processes"
       ]
     }
   ]
@@ -314,9 +314,9 @@ const workExperiences = {
       duration: "1 year 9 months",
       desc: "Project workstream lead for Azure migration, Active Directory, and Office 365 projects, supporting secure data transitions and hybrid cloud operations.",
       descBullets: [
-        "☁️ Led Azure migration and Office 365 transformation projects across multi-site healthcare infrastructure serving 900,000+ members",
-        "🌐 Deployed and configured Cisco switch/wireless networks with DR operations for secure healthcare data transmission",
-        "📚 Delivered comprehensive training programs covering O365 best practices, security awareness, and GDPR compliance"
+        "☁️ Project workstream lead for Azure migration, Active Directory, and Office 365 projects, supporting secure data transitions and hybrid cloud operations",
+        "�️ Administered and supported Azure, Office 365, VMware, Windows Server environments, and managed large-scale infrastructure migrations",
+        "🌐 Led Cisco switch and wireless network deployment, configuration, and DR operations for multi-site environments"
       ]
     },
     {
