@@ -24,7 +24,7 @@ const greeting = {
   username: "Darren Storey",
   title: "CloudOps, Storage & Automation Specialist",
   subTitle: emoji(
-    "Award-winning engineer delivering multi-petabyte AWS, FinOps, and platform automation for FTSE 100 and blue-chip firms — 5+ years remote, £10M+ saved annually, and known for high-uptime, secure, and cost-efficient cloud estates."
+    "Award-winning engineer with 12 years in IT delivering multi-petabyte AWS, FinOps, and platform automation for FTSE 100 and blue-chip firms — 5+ years remote, £10M+ saved annually, and known for high-uptime, secure, and cost-efficient cloud estates."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -264,10 +264,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Storage DevOps & CloudOps Engineer",
+      role: "Storage DevOps & CloudOps Engineer (Remote)",
       company: "Aviva",
       companylogo: require("./assets/images/avivaLogo.png"),
-      date: "May 2024 – Present",
+      date: "May 2024 – Present (8 months)",
       location: "Remote, UK & Global Teams",
       desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
       descBullets: [
@@ -297,10 +297,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Storage SME & Technical Analyst",
+      role: "Storage SME & Technical Analyst (Remote)",
       company: "Aviva",
       companylogo: require("./assets/images/avivaLogo.png"),
-      date: "June 2021 – May 2024",
+      date: "June 2021 – May 2024 (2 years 11 months)",
       location: "Remote, UK & Global Teams",
       desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
       descBullets: [
@@ -331,7 +331,7 @@ const workExperiences = {
       role: "Technical Engineer",
       company: "Benenden Health",
       companylogo: require("./assets/images/benendenhealthLogo.png"),
-      date: "October 2017 – July 2019",
+      date: "October 2017 – July 2019 (1 year 9 months)",
       location: "York, UK",
       desc: "Project workstream lead for Azure migration and Office 365 transformation, supporting secure data transitions and hybrid cloud operations for healthcare organization.",
       descBullets: [
@@ -356,7 +356,7 @@ const workExperiences = {
       role: "Systems Administrator",
       company: "Pitman Training Group",
       companylogo: require("./assets/images/pitmanLogo.png"),
-      date: "April 2017 – September 2017",
+      date: "April 2017 – September 2017 (6 months)",
       location: "Wetherby, UK",
       desc: "Managed Office 365 and Azure infrastructure across 50+ global franchises, implementing automation and security policies for distributed education network.",
       descBullets: [
@@ -379,7 +379,7 @@ const workExperiences = {
       role: "IT Network Engineer",
       company: "York Data Services",
       companylogo: require("./assets/images/yorkdataservicesLogo.png"),
-      date: "September 2015 – April 2017",
+      date: "September 2015 – April 2017 (1 year 7 months)",
       location: "York, UK",
       desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
       descBullets: [
@@ -404,7 +404,7 @@ const workExperiences = {
       role: "IT Support Trainee",
       company: "STEM Learning",
       companylogo: require("./assets/images/stemlearningLogo.png"),
-      date: "April 2013 – August 2015",
+      date: "April 2013 – August 2015 (2 years 4 months)",
       location: "York, UK",
       desc: "Supported multi-platform STEM education environments and cloud migrations while developing expertise in virtualization and mobile device management.",
       descBullets: [

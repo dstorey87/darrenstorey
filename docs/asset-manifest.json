@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/darrenstorey/static/css/main.68af8c53.css",
-    "main.js": "/darrenstorey/static/js/main.474cde37.js",
+    "main.js": "/darrenstorey/static/js/main.658026ec.js",
     "static/css/290.9d91cb35.chunk.css": "/darrenstorey/static/css/290.9d91cb35.chunk.css",
     "static/js/290.73457532.chunk.js": "/darrenstorey/static/js/290.73457532.chunk.js",
     "static/css/148.b3b9a0d2.chunk.css": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css",
@@ -27,7 +27,7 @@
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.68af8c53.css.map": "/darrenstorey/static/css/main.68af8c53.css.map",
-    "main.474cde37.js.map": "/darrenstorey/static/js/main.474cde37.js.map",
+    "main.658026ec.js.map": "/darrenstorey/static/js/main.658026ec.js.map",
     "290.9d91cb35.chunk.css.map": "/darrenstorey/static/css/290.9d91cb35.chunk.css.map",
     "290.73457532.chunk.js.map": "/darrenstorey/static/js/290.73457532.chunk.js.map",
     "148.b3b9a0d2.chunk.css.map": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.68af8c53.css",
-    "static/js/main.474cde37.js"
+    "static/js/main.658026ec.js"
   ]
 }
