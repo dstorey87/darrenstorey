@@ -26,8 +26,9 @@ const greeting = {
   subTitle: emoji(
     "Award-winning engineer delivering multi-petabyte AWS, FinOps, and platform automation for FTSE 100 and blue-chip firms — 5+ years remote, £10M+ saved annually, and known for high-uptime, secure, and cost-efficient cloud estates."
   ),
-  resumeLink: "/Darren_Storey_fullstack_CV_v2_extended.pdf", // Place PDF in /public
-  displayGreeting: true
+  resumeLink:
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -66,6 +67,33 @@ const skillsSection = {
     ),
     emoji(
       "👥 Mentor teams, build self-service tooling, and champion DevOps culture across organizations"
+    ),
+    emoji(
+      "🏗️ Build and maintain hybrid Windows/Linux environments with automated provisioning, patching, and disaster recovery"
+    ),
+    emoji(
+      "📊 Implement observability and monitoring solutions using CloudWatch, DataDog, and custom health probes"
+    ),
+    emoji(
+      "🔄 Orchestrate blue/green deployments, canary releases, and automated rollback strategies across environments"
+    ),
+    emoji(
+      "⚡ Automate operational workflows using PowerShell, Python, and Groovy reducing manual overhead by 60%"
+    ),
+    emoji(
+      "🎯 Ensure business continuity for critical financial systems through proactive capacity planning and SLA management"
+    ),
+    emoji(
+      "📋 Lead major incident response, root cause analysis, and post-mortem processes as single point of contact"
+    ),
+    emoji(
+      "🌍 Support global, distributed teams with comprehensive documentation, runbooks, and knowledge transfer programs"
+    ),
+    emoji(
+      "💡 Drive innovation through proof-of-concepts, technology evaluation, and strategic cloud adoption roadmaps"
+    ),
+    emoji(
+      "🔐 Maintain enterprise security posture with access controls, compliance auditing, and vulnerability management"
     )
   ],
 
@@ -238,7 +266,7 @@ const workExperiences = {
     {
       role: "Storage DevOps & CloudOps Engineer",
       company: "Aviva",
-      companylogo: require("./assets/images/facebookLogo.png"), // Placeholder - replace with actual Aviva logo
+      companylogo: require("./assets/images/avivaLogo.png"),
       date: "May 2024 – Present",
       location: "Remote, UK & Global Teams",
       desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
@@ -271,7 +299,7 @@ const workExperiences = {
     {
       role: "Storage SME & Technical Analyst",
       company: "Aviva",
-      companylogo: require("./assets/images/quoraLogo.png"), // Placeholder - replace with actual Aviva logo
+      companylogo: require("./assets/images/avivaLogo.png"),
       date: "June 2021 – May 2024",
       location: "Remote, UK & Global Teams",
       desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
@@ -302,7 +330,7 @@ const workExperiences = {
     {
       role: "Technical Engineer",
       company: "Benenden Health",
-      companylogo: require("./assets/images/stanfordLogo.png"), // Placeholder - replace with actual Benenden logo
+      companylogo: require("./assets/images/benendenhealthLogo.png"),
       date: "October 2017 – July 2019",
       location: "York, UK",
       desc: "Project workstream lead for Azure migration and Office 365 transformation, supporting secure data transitions and hybrid cloud operations for healthcare organization.",
@@ -327,7 +355,7 @@ const workExperiences = {
     {
       role: "Systems Administrator",
       company: "Pitman Training Group",
-      companylogo: require("./assets/images/harvardLogo.png"), // Placeholder - replace with actual Pitman logo
+      companylogo: require("./assets/images/pitmanLogo.png"),
       date: "April 2017 – September 2017",
       location: "Wetherby, UK",
       desc: "Managed Office 365 and Azure infrastructure across 50+ global franchises, implementing automation and security policies for distributed education network.",
@@ -350,7 +378,7 @@ const workExperiences = {
     {
       role: "IT Network Engineer",
       company: "York Data Services",
-      companylogo: require("./assets/images/saayaHealthLogo.webp"), // Placeholder - replace with actual York Data logo
+      companylogo: require("./assets/images/yorkdataservicesLogo.png"),
       date: "September 2015 – April 2017",
       location: "York, UK",
       desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
@@ -374,11 +402,11 @@ const workExperiences = {
     },
     {
       role: "IT Support Trainee",
-      company: "Myscience.co",
-      companylogo: require("./assets/images/airbnbLogo.png"), // Placeholder - replace with actual Myscience logo
+      company: "STEM Learning",
+      companylogo: require("./assets/images/stemlearningLogo.png"),
       date: "April 2013 – August 2015",
       location: "York, UK",
-      desc: "Supported multi-platform environments and cloud migrations while developing expertise in virtualization and mobile device management.",
+      desc: "Supported multi-platform STEM education environments and cloud migrations while developing expertise in virtualization and mobile device management.",
       descBullets: [
         "💻 Supported staff and delegates on Microsoft, Apple, and Android platforms including Office 365 and cloud-based services",
         "🖥️ Managed ESXi virtualization, backup systems, and iOS MDM coordinating seamless O365 migrations",

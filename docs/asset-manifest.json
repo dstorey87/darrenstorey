@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/darrenstorey/static/css/main.50b1cbf1.css",
-    "main.js": "/darrenstorey/static/js/main.0f54df82.js",
+    "main.css": "/darrenstorey/static/css/main.5ff95d7d.css",
+    "main.js": "/darrenstorey/static/js/main.1885cff4.js",
     "static/css/64.bba8fa55.chunk.css": "/darrenstorey/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/darrenstorey/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/darrenstorey/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/darrenstorey/static/js/769.bda0d7b7.chunk.js",
+    "static/media/benendenhealthLogo.png": "/darrenstorey/static/media/benendenhealthLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/stanfordLogo.png": "/darrenstorey/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
+    "static/media/stemlearningLogo.png": "/darrenstorey/static/media/stemlearningLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/harvardLogo.png": "/darrenstorey/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
+    "static/media/yorkdataservicesLogo.png": "/darrenstorey/static/media/yorkdataservicesLogo.542dab89bfb35b7f5c0d.png",
     "static/media/Montserrat-Regular.ttf": "/darrenstorey/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/avivaLogo.png": "/darrenstorey/static/media/avivaLogo.a5acb4125227e2f28f31.png",
     "static/media/Agustina.woff": "/darrenstorey/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/darrenstorey/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/darrenstorey/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/quoraLogo.png": "/darrenstorey/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
     "static/media/developerActivity.svg": "/darrenstorey/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/darrenstorey/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/airbnbLogo.png": "/darrenstorey/static/media/airbnbLogo.e8497507db673acd3991.png",
-    "static/media/facebookLogo.png": "/darrenstorey/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
     "static/media/codeInLogo.webp": "/darrenstorey/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/darrenstorey/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/darrenstorey/static/media/resume.f0f733dd3cd732b39262.pdf",
@@ -25,15 +26,15 @@
     "static/media/nextuLogo.webp": "/darrenstorey/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.50b1cbf1.css.map": "/darrenstorey/static/css/main.50b1cbf1.css.map",
-    "main.0f54df82.js.map": "/darrenstorey/static/js/main.0f54df82.js.map",
+    "main.5ff95d7d.css.map": "/darrenstorey/static/css/main.5ff95d7d.css.map",
+    "main.1885cff4.js.map": "/darrenstorey/static/js/main.1885cff4.js.map",
     "64.bba8fa55.chunk.css.map": "/darrenstorey/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/darrenstorey/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/darrenstorey/static/css/769.b3cbb36b.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/darrenstorey/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50b1cbf1.css",
-    "static/js/main.0f54df82.js"
+    "static/css/main.5ff95d7d.css",
+    "static/js/main.1885cff4.js"
   ]
 }

@@ -4,20 +4,29 @@
   position: relative;
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid $lightBorder1;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .experience-card-dark {
   position: relative;
   background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid $lightBorder1;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .experience-card:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  box-shadow: $lightBoxShadowDark 0px 20px 40px -10px;
+  transform: translateY(-5px);
 }
 
 .experience-banner {
@@ -25,7 +34,7 @@
   background-repeat: no-repeat;
   background-size: 150%;
   background: $experienceCardBannerLG;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
   -o-filter: blur(0px);
@@ -49,7 +58,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .experience-div-company {
@@ -119,6 +128,9 @@
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Media Query */
