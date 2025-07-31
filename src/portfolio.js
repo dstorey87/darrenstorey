@@ -70,7 +70,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Core Expertise & Technologies",
   subTitle:
-    "AWARD-WINNING DEVOPS & CLOUDOPS SPECIALIST WITH DEEP AWS EXPERTISE",
+    "Award-winning DevOps & CloudOps specialist with deep AWS expertise",
   skills: [
     emoji(
       "☁️ Architect and manage multi-petabyte AWS cloud infrastructure with S3, FSx, EC2, RDS, Lambda, and VPC"
