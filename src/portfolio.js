@@ -266,7 +266,7 @@ const workExperiences = {
     {
       role: "Storage DevOps & CloudOps Engineer (Remote)",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo.png"),
+      companylogo: require("./assets/images/avivaLogo_new.png"),
       date: "May 2024 – Present (8 months)",
       location: "Remote, UK & Global Teams",
       desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
@@ -299,7 +299,7 @@ const workExperiences = {
     {
       role: "Storage SME & Technical Analyst (Remote)",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo.png"),
+      companylogo: require("./assets/images/avivaLogo_new.png"),
       date: "June 2021 – May 2024 (2 years 11 months)",
       location: "Remote, UK & Global Teams",
       desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
@@ -330,7 +330,7 @@ const workExperiences = {
     {
       role: "Technical Engineer",
       company: "Benenden Health",
-      companylogo: require("./assets/images/benendenhealthLogo.png"),
+      companylogo: require("./assets/images/benendenLogo.webp"),
       date: "October 2017 – July 2019 (1 year 9 months)",
       location: "York, UK",
       desc: "Project workstream lead for Azure migration and Office 365 transformation, supporting secure data transitions and hybrid cloud operations for healthcare organization.",
@@ -355,7 +355,7 @@ const workExperiences = {
     {
       role: "Systems Administrator",
       company: "Pitman Training Group",
-      companylogo: require("./assets/images/pitmanLogo.png"),
+      companylogo: require("./assets/images/pitmanLogo.webp"),
       date: "April 2017 – September 2017 (6 months)",
       location: "Wetherby, UK",
       desc: "Managed Office 365 and Azure infrastructure across 50+ global franchises, implementing automation and security policies for distributed education network.",
@@ -378,7 +378,7 @@ const workExperiences = {
     {
       role: "IT Network Engineer",
       company: "York Data Services",
-      companylogo: require("./assets/images/yorkdataservicesLogo.png"),
+      companylogo: require("./assets/images/ydsLogo.webp"),
       date: "September 2015 – April 2017 (1 year 7 months)",
       location: "York, UK",
       desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
@@ -403,7 +403,7 @@ const workExperiences = {
     {
       role: "IT Support Trainee",
       company: "STEM Learning",
-      companylogo: require("./assets/images/stemlearningLogo.png"),
+      companylogo: require("./assets/images/stemLogo.webp"),
       date: "April 2013 – August 2015 (2 years 4 months)",
       location: "York, UK",
       desc: "Supported multi-platform STEM education environments and cloud migrations while developing expertise in virtualization and mobile device management.",
