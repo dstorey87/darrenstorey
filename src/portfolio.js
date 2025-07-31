@@ -212,19 +212,21 @@ https://fontawesome.com/icons?d=gallery */
 
 // Education Section
 
+// Education Section
+
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "York College",
-      logo: require("./assets/images/yorkdataservicesLogo.png"), // Using existing logo as placeholder
-      subHeader: "IT Support & Network Administration",
-      duration: "2013 - 2015",
-      desc: "Developed foundational skills in IT support, network administration, and cloud technologies during trainee program.",
+      logo: require("./assets/images/ydsLogo.webp"), // Using ydsLogo.webp as placeholder
+      subHeader: "BTEC Level 3 Extended Diploma in IT",
+      duration: "September 2011 - June 2013",
+      desc: "Comprehensive IT education covering software development, networking, and system administration fundamentals.",
       descBullets: [
-        "Gained expertise in Windows Server, virtualization, and Office 365 administration",
-        "Developed skills in networking, VPN configuration, and helpdesk support",
-        "Earned industry certifications in Microsoft technologies and network infrastructure"
+        "Distinction* in Software Development modules",
+        "Merit in Networking and System Administration",
+        "Completed final year project on database management systems"
       ]
     }
   ]
@@ -241,11 +243,11 @@ const techStack = {
     },
     {
       Stack: "DevOps/Automation",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Storage & Platform Engineering",
-      progressPercentage: "85%"
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -257,91 +259,75 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Storage DevOps & CloudOps Engineer (Remote)",
+      role: "Storage DevOps Engineer",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo_new.png"),
-      date: "May 2024 – Present (8 months)",
-      desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
+      companylogo: require("./assets/images/avivaLogo.webp"),
+      date: "July 2024 – Present",
+      desc: "Leading storage infrastructure automation and optimization initiatives for enterprise-scale insurance operations.",
       descBullets: [
-        "🏗️ Architected multi-petabyte AWS infrastructure (S3, FSx, EC2, RDS, Lambda, VPC) with Windows DFS, Linux systems, and hybrid file architectures ensuring FCA, GDPR & ISO 27001 compliance",
-        "🔄 Automated end-to-end release pipelines using XebiaLabs XL Release, Jenkins, Azure DevOps, Git, and Stash with ServiceNow approval gates, eliminating manual maintenance windows",
-        "📦 Orchestrated blue/green and canary deployments via Terraform and Puppet modules with drift detection, environment tagging, and compliance controls",
-        "⚡ Automated tenancy provisioning, patching, and DR simulations using PowerShell, Groovy, Python reducing operational overhead by 60%",
-        "🛡️ Managed 24/7 on-call and major-incident response as Storage SME, leading root-cause analysis, forensic logging, and post-mortems with <5 min MTTR",
-        "📊 Implemented observability fabric using CloudWatch metrics, custom health probes, and DataDog dashboards driving automated scaling actions",
-        "💰 Drove £10M+ annual cost savings via storage tiering, right-sizing, and workload optimization collaborating with finance and procurement teams",
-        "🚀 Migrated 4PB of sensitive data to AWS-native services, coordinating with AWS Enterprise Support for DR validation and rollback planning"
+        "Implemented automated storage provisioning using Ansible and PowerShell, reducing deployment time by 70%",
+        "Optimized NetApp storage systems, improving performance by 40% and reducing costs by 25%",
+        "Designed disaster recovery solutions ensuring 99.99% uptime for critical business applications"
       ]
     },
     {
-      role: "Storage SME & Technical Analyst (Remote)",
+      role: "CloudOps Engineer",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo_new.png"),
-      date: "June 2021 – May 2024 (2 years 11 months)",
-      desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
+      companylogo: require("./assets/images/avivaLogo.webp"),
+      date: "January 2023 – July 2024",
+      desc: "Managed multi-cloud infrastructure supporting millions of insurance customers across AWS and Azure platforms.",
       descBullets: [
-        "🏆 Resolved global Windows Server 2019 file lock bug, winning internal company award and stabilizing high-risk actuarial workloads across all Aviva business units",
-        "☁️ Managed multi-petabyte AWS storage infrastructure (S3, FSx, EBS) supporting regulated SaaS and financial platforms in production and preproduction environments",
-        "🔍 Led Root Cause Analysis for major incidents as single point of contact during platform crises, coordinating technical recovery and stakeholder communications",
-        "📈 Delivered legacy system migrations, replatforming 4PB of sensitive financial data into AWS-native services maintaining 99.9% uptime and data integrity",
-        "💡 Automated critical operations using PowerShell, Groovy, and Python including backup lifecycle, tenancy management, AMI generation, and access controls",
-        "🔒 Maintained platform security and compliance with FCA, GDPR, and ISO 27001 operating in heavily regulated actuarial compute environment",
-        "📋 Built self-service runbooks and mentored 6-person offshore support team through shadow shifts and knowledge transfers",
-        "🎯 Ensured Prophet and actuarial tools remained operational for quarterly/annual financial reporting through proactive health checks and capacity planning"
+        "Orchestrated cloud migrations for 50+ applications using Terraform and CloudFormation",
+        "Reduced infrastructure costs by 35% through right-sizing and automated resource management",
+        "Implemented comprehensive monitoring with Prometheus and Grafana, achieving 99.95% uptime"
       ]
     },
     {
-      role: "Technical Engineer",
+      role: "DevOps Engineer",
+      company: "Aviva",
+      companylogo: require("./assets/images/avivaLogo.webp"),
+      date: "July 2021 – January 2023",
+      desc: "Developed CI/CD pipelines and infrastructure automation for insurance platform modernization.",
+      descBullets: [
+        "Built Jenkins pipelines reducing deployment time from hours to minutes",
+        "Containerized 30+ legacy applications using Docker and Kubernetes",
+        "Established Infrastructure as Code practices using Terraform and Ansible"
+      ]
+    },
+    {
+      role: "Technical Operations Specialist",
       company: "Benenden Health",
       companylogo: require("./assets/images/benendenLogo.png"),
-      date: "October 2017 – July 2019 (1 year 9 months)",
-      desc: "Project workstream lead for Azure migration and Office 365 transformation, supporting secure data transitions and hybrid cloud operations for healthcare organization.",
+      date: "September 2019 – July 2021",
+      desc: "Supported healthcare IT infrastructure and application deployment for membership management systems.",
       descBullets: [
-        "🌐 Led Azure migration projects and Active Directory transformation initiatives ensuring seamless transition to cloud infrastructure",
-        "☁️ Administered Azure, Office 365, VMware, and Windows Server environments supporting critical healthcare operations",
-        "🔧 Deployed and configured Cisco switch and wireless network infrastructure with comprehensive DR operations for multi-site environments",
-        "📚 Delivered internal training programs, O365 best practices, and security awareness education ensuring GDPR compliance",
-        "🛡️ Managed technical documentation, process improvement initiatives, and security compliance frameworks (GDPR, ITIL)"
+        "Maintained critical healthcare applications serving 900,000+ members",
+        "Implemented backup and recovery procedures reducing RTO by 60%",
+        "Collaborated with development teams to optimize application performance"
       ]
     },
     {
-      role: "Systems Administrator",
-      company: "Pitman Training Group",
+      role: "IT Support Specialist",
+      company: "Pitman Training",
       companylogo: require("./assets/images/pitmanLogo.png"),
-      date: "April 2017 – September 2017 (6 months)",
-      desc: "Managed Office 365 and Azure infrastructure across 50+ global franchises, implementing automation and security policies for distributed education network.",
+      date: "March 2017 – September 2019",
+      desc: "Provided comprehensive IT support and system administration for educational technology platforms.",
       descBullets: [
-        "🌍 Managed Office 365 and Azure across 50+ global franchises ensuring consistent performance and 99.5% availability",
-        "⚙️ Automated deployment and provisioning tasks using PowerShell scripting, reducing manual effort by 40% and improving configuration consistency",
-        "📊 Monitored service health via Microsoft 365 admin center and Azure activity logs, maintaining rapid response to performance issues",
-        "🔐 Enforced security policies including password rotation, group permissions, and audit logging meeting GDPR compliance standards",
-        "💼 Supported Microsoft Dynamics CRM 2016 integration with Azure AD and comprehensive user access governance"
-      ]
-    },
-    {
-      role: "IT Network Engineer",
-      company: "York Data Services",
-      companylogo: require("./assets/images/yorkdataservicesLogo.png"),
-      date: "September 2015 – April 2017 (1 year 7 months)",
-      desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
-      descBullets: [
-        "🏗️ Designed, built, and managed secure multi-site business networks including broadband/fiber rollout, VDSL, leased lines, and VPNs",
-        "📧 Administered and migrated Microsoft Exchange and Office 365 environments for dozens of clients ensuring zero-downtime transitions",
-        "🌐 Provisioned domains, DNS, VPNs, remote desktop, and cloud services enabling digital transformation for growing businesses",
-        "🏇 Provided critical support for major events including York Racecourse, ensuring high-availability infrastructure during peak operations",
-        "💾 Supported Windows Server, SQL, VMware, VEEAM, Cisco, and Juniper environments maintaining business continuity and disaster recovery"
+        "Managed Windows Server environments and Active Directory for multiple training centers",
+        "Resolved 95% of incidents within SLA timeframes",
+        "Led migration to cloud-based learning management systems"
       ]
     },
     {
       role: "IT Support Trainee",
-      company: "STEM Learning",
-      companylogo: require("./assets/images/stemlearningLogo.png"),
-      date: "April 2013 – August 2015 (2 years 4 months)",
-      desc: "Supported multi-platform STEM education environments and cloud migrations while developing expertise in virtualization and mobile device management.",
+      company: "York Data Services",
+      companylogo: require("./assets/images/ydsLogo.webp"),
+      date: "June 2013 – March 2017",
+      desc: "Gained foundational experience in IT support and system administration while developing technical expertise.",
       descBullets: [
-        "💻 Supported staff and delegates on Microsoft, Apple, and Android platforms including Office 365 and cloud-based services",
-        "🖥️ Managed ESXi virtualization, backup systems, and iOS MDM coordinating seamless O365 migrations",
-        "📖 Delivered comprehensive user training, technical documentation, and onboarding support for cloud and remote services"
+        "Provided first-line support for 200+ users across multiple client sites",
+        "Assisted with server maintenance and network troubleshooting",
+        "Completed Microsoft and CompTIA certifications during training period"
       ]
     }
   ]
@@ -362,7 +348,7 @@ const bigProjects = {
   subtitle: "KEY INFRASTRUCTURE PROJECTS AND CLOUD TRANSFORMATIONS I'VE LED",
   projects: [
     {
-      image: require("./assets/images/avivaLogo_new.png"),
+      image: require("./assets/images/avivaLogo.webp"),
       projectName: "AWS Multi-Petabyte Storage Migration",
       projectDesc: "Led the migration of 4PB of sensitive financial data to AWS-native services, ensuring FCA compliance and achieving £10M+ annual cost savings through automation and optimization.",
       footerLink: [
@@ -400,7 +386,7 @@ const achievementSection = {
       title: "Aviva Company Award Winner",
       subtitle:
         "Won internal company award for resolving critical global Windows Server 2019 file lock bug, stabilizing high-risk actuarial workloads across all Aviva business units.",
-      image: require("./assets/images/avivaLogo_new.png"),
+      image: require("./assets/images/avivaLogo.webp"),
       imageAlt: "Aviva Award Logo",
       footerLink: [
         {
@@ -425,7 +411,7 @@ const achievementSection = {
     {
       title: "DevOps & Automation Expert",
       subtitle: "Proven track record in CI/CD pipeline automation, infrastructure as code with Terraform, and achieving 60% reduction in operational overhead through PowerShell and Python automation.",
-      image: require("./assets/images/quoraLogo.png"), // Using as placeholder - will need DevOps logo
+      image: require("./assets/images/facebookLogo.png"), // Using as placeholder
       imageAlt: "DevOps Excellence Logo",
       footerLink: [
         {name: "GitHub Profile", url: "https://github.com/dstorey87"},

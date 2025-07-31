@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^8.17.1",
     "colorthief": "latest",
     "copyfiles": "latest",
     "gh-pages": "latest",
@@ -20,9 +21,9 @@
   },
   "scripts": {
     "predeploy": "npm run build-docs",
-    "start": "set NODE_PATH=C:/artifacts/node_modules && node fetch.js && C:/artifacts/node_modules/.bin/react-scripts start",
-    "build": "set NODE_PATH=C:/artifacts/node_modules && node fetch.js && C:/artifacts/node_modules/.bin/react-scripts build",
-    "build-docs": "set NODE_PATH=C:/artifacts/node_modules && node fetch.js && C:/artifacts/node_modules/.bin/react-scripts build && C:/artifacts/node_modules/.bin/copyfiles -u 1 build/**/* docs/ && rmdir /s /q build && prettier --write \"docs/**/*.{js,css,json}\"",
+    "start": "node fetch.js && react-scripts start",
+    "build": "set DISABLE_ESLINT_PLUGIN=true && node fetch.js && react-scripts build",
+    "build-docs": "set DISABLE_ESLINT_PLUGIN=true && node fetch.js && react-scripts build && copyfiles -u 1 build/**/* docs/ && rmdir /s /q build && prettier --write \"docs/**/*.{js,css,json}\"",
     "deploy": "gh-pages -b main -d docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
