@@ -68,7 +68,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Core Expertise & Technologies",
+  title: "Core Expertise",
   subTitle:
     "Award-winning DevOps & CloudOps specialist with deep AWS expertise",
   skills: [

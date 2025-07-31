@@ -32,6 +32,9 @@
   font-size: 56px;
   font-weight: 400;
   margin-bottom: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .skills-text-subtitle {
@@ -58,6 +61,16 @@
   
   .skills-main-div {
     gap: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .skills-heading {
+    font-size: 36px;
+  }
+  
+  .skills-text-div {
+    max-width: 65%;
   }
 }
 
@@ -95,6 +108,10 @@
 }
 
 @media (max-width: 480px) {
+  .skills-heading {
+    font-size: 24px;
+  }
+  
   .skills-main-div {
     padding: 1rem;
   }
