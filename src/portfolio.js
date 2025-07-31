@@ -5,6 +5,28 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/darrenAvatar.json"; // Custom avatar animation with hoodie, jeans and dog
 
+// Function to calculate duration from start date to current date
+function calculateDuration(startDate) {
+  const start = new Date(startDate);
+  const now = new Date();
+  
+  let years = now.getFullYear() - start.getFullYear();
+  let months = now.getMonth() - start.getMonth();
+  
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  
+  if (years > 0 && months > 0) {
+    return `${years} year${years > 1 ? 's' : ''} ${months} month${months > 1 ? 's' : ''}`;
+  } else if (years > 0) {
+    return `${years} year${years > 1 ? 's' : ''}`;
+  } else {
+    return `${months} month${months > 1 ? 's' : ''}`;
+  }
+}
+
 // Illustration
 const illustration = {
   animated: true // Set to false to use static SVG illustrations instead of Lottie animations
@@ -262,8 +284,8 @@ const workExperiences = {
       role: "Storage DevOps & CloudOps Engineer",
       company: "Aviva",
       companylogo: require("./assets/images/avivaLogo.webp"),
-      date: "May 2024 – Present",
-      duration: "8 months",
+      date: "March 2024 – Present",
+      duration: calculateDuration("2024-03-01"),
       desc: "Leading DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
       descBullets: [
         "🏗️ Architected multi-petabyte AWS infrastructure (S3, FSx, EC2, RDS, Lambda, VPC) with Windows DFS, Linux systems, and hybrid file architectures ensuring FCA, GDPR & ISO 27001 compliance",
