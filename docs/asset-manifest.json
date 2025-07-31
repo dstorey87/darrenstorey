@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/darrenstorey/static/css/main.6ee6480e.css",
+    "main.css": "/darrenstorey/static/css/main.68af8c53.css",
     "main.js": "/darrenstorey/static/js/main.474cde37.js",
     "static/css/290.9d91cb35.chunk.css": "/darrenstorey/static/css/290.9d91cb35.chunk.css",
     "static/js/290.73457532.chunk.js": "/darrenstorey/static/js/290.73457532.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/nextuLogo.webp": "/darrenstorey/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.6ee6480e.css.map": "/darrenstorey/static/css/main.6ee6480e.css.map",
+    "main.68af8c53.css.map": "/darrenstorey/static/css/main.68af8c53.css.map",
     "main.474cde37.js.map": "/darrenstorey/static/js/main.474cde37.js.map",
     "290.9d91cb35.chunk.css.map": "/darrenstorey/static/css/290.9d91cb35.chunk.css.map",
     "290.73457532.chunk.js.map": "/darrenstorey/static/js/290.73457532.chunk.js.map",
@@ -34,7 +34,7 @@
     "148.e69aa925.chunk.js.map": "/darrenstorey/static/js/148.e69aa925.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ee6480e.css",
+    "static/css/main.68af8c53.css",
     "static/js/main.474cde37.js"
   ]
 }
