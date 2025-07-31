@@ -95,7 +95,7 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: contain;
+  object-fit: cover;
   left: 0;
   right: 0;
   top: 7rem;
@@ -108,7 +108,7 @@
   border: 4px solid rgba(255, 255, 255, 0.9);
   z-index: 3;
   transition: all 0.3s ease;
-  padding: 1rem;
+  padding: 0rem;
   background: #ffffff;
 }
 
@@ -166,7 +166,7 @@
   .experience-roundedimg {
     width: 7rem;
     height: 7rem;
-    padding: 0.4rem;
+    padding: 0rem;
   }
 }
 
@@ -186,6 +186,6 @@
   .experience-roundedimg {
     width: 6rem;
     height: 6rem;
-    padding: 0.3rem;
+    padding: 0rem;
   }
 }
