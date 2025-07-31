@@ -2,41 +2,30 @@
 
 .experience-card {
   position: relative;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
 }
 
 .experience-card-dark {
   position: relative;
-  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
 }
 
 .experience-card:hover {
-  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
-  transform: translateY(-8px) scale(1.02);
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 
 .experience-banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
-  border-radius: 15px 15px 0px 0px;
+  background: $experienceCardBannerLG;
+  border-radius: 10px 10px 0px 0px;
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
   -o-filter: blur(0px);
@@ -46,13 +35,11 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  position: relative;
-  overflow: hidden;
 }
 
 .experience-blurred_div {
   position: absolute;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+  background: $experienceCardBlurredDivLG;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
@@ -62,7 +49,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .experience-div-company {
@@ -75,22 +62,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
 }
 
 .experience-text-company {
   text-align: center;
   padding: 1.5rem;
   margin: 0;
-  color: #ffffff;
+  color: $lightBackground1;
   font-size: 25px;
   text-align: center;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  letter-spacing: 1px;
 }
 
 .experience-roundedimg {
@@ -109,21 +93,19 @@
 
 .experience-text-role {
   text-align: center;
-  color: #2c3e50;
+  color: $textColor;
   font-weight: 700;
   font-size: 25px;
   margin: 0px;
   padding-top: 1.5rem;
   line-height: normal;
 }
-
 .dark-mode-text {
   color: $textColorDark !important;
 }
-
 .experience-text-date {
   text-align: center;
-  color: #34495e;
+  color: $textColor;
   font-size: 20px;
   margin: 0px;
   padding-top: 1rem;
@@ -137,12 +119,6 @@
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.95) 100%);
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 0 0 15px 15px;
 }
 
 /* Media Query */
@@ -176,9 +152,5 @@
   }
   .experience-text-desc {
     font-size: 16px;
-  }
-  .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
   }
 }

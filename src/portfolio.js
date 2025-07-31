@@ -216,23 +216,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "York College",
+      logo: require("./assets/images/yorkdataservicesLogo.png"), // Using existing logo as placeholder
+      subHeader: "IT Support & Network Administration",
+      duration: "2013 - 2015",
+      desc: "Developed foundational skills in IT support, network administration, and cloud technologies during trainee program.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Gained expertise in Windows Server, virtualization, and Office 365 administration",
+        "Developed skills in networking, VPN configuration, and helpdesk support",
+        "Earned industry certifications in Microsoft technologies and network infrastructure"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -243,16 +236,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "AWS/Cloud Infrastructure", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "DevOps/Automation",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Storage & Platform Engineering",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -268,7 +261,6 @@ const workExperiences = {
       company: "Aviva",
       companylogo: require("./assets/images/avivaLogo_new.png"),
       date: "May 2024 – Present (8 months)",
-      location: "Remote, UK & Global Teams",
       desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
       descBullets: [
         "🏗️ Architected multi-petabyte AWS infrastructure (S3, FSx, EC2, RDS, Lambda, VPC) with Windows DFS, Linux systems, and hybrid file architectures ensuring FCA, GDPR & ISO 27001 compliance",
@@ -279,21 +271,6 @@ const workExperiences = {
         "📊 Implemented observability fabric using CloudWatch metrics, custom health probes, and DataDog dashboards driving automated scaling actions",
         "💰 Drove £10M+ annual cost savings via storage tiering, right-sizing, and workload optimization collaborating with finance and procurement teams",
         "🚀 Migrated 4PB of sensitive data to AWS-native services, coordinating with AWS Enterprise Support for DR validation and rollback planning"
-      ],
-      technologies: [
-        "AWS",
-        "Terraform",
-        "Jenkins",
-        "XL Release",
-        "PowerShell",
-        "Python",
-        "ServiceNow",
-        "CloudWatch",
-        "S3",
-        "FSx",
-        "EC2",
-        "RDS",
-        "Lambda"
       ]
     },
     {
@@ -301,7 +278,6 @@ const workExperiences = {
       company: "Aviva",
       companylogo: require("./assets/images/avivaLogo_new.png"),
       date: "June 2021 – May 2024 (2 years 11 months)",
-      location: "Remote, UK & Global Teams",
       desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
       descBullets: [
         "🏆 Resolved global Windows Server 2019 file lock bug, winning internal company award and stabilizing high-risk actuarial workloads across all Aviva business units",
@@ -312,19 +288,6 @@ const workExperiences = {
         "🔒 Maintained platform security and compliance with FCA, GDPR, and ISO 27001 operating in heavily regulated actuarial compute environment",
         "📋 Built self-service runbooks and mentored 6-person offshore support team through shadow shifts and knowledge transfers",
         "🎯 Ensured Prophet and actuarial tools remained operational for quarterly/annual financial reporting through proactive health checks and capacity planning"
-      ],
-      technologies: [
-        "AWS",
-        "PowerShell",
-        "Groovy",
-        "Python",
-        "S3",
-        "FSx",
-        "EBS",
-        "CloudWatch",
-        "ServiceNow",
-        "VMware",
-        "Windows Server"
       ]
     },
     {
@@ -332,7 +295,6 @@ const workExperiences = {
       company: "Benenden Health",
       companylogo: require("./assets/images/benendenLogo.png"),
       date: "October 2017 – July 2019 (1 year 9 months)",
-      location: "York, UK",
       desc: "Project workstream lead for Azure migration and Office 365 transformation, supporting secure data transitions and hybrid cloud operations for healthcare organization.",
       descBullets: [
         "🌐 Led Azure migration projects and Active Directory transformation initiatives ensuring seamless transition to cloud infrastructure",
@@ -340,16 +302,6 @@ const workExperiences = {
         "🔧 Deployed and configured Cisco switch and wireless network infrastructure with comprehensive DR operations for multi-site environments",
         "📚 Delivered internal training programs, O365 best practices, and security awareness education ensuring GDPR compliance",
         "🛡️ Managed technical documentation, process improvement initiatives, and security compliance frameworks (GDPR, ITIL)"
-      ],
-      technologies: [
-        "Azure",
-        "Office 365",
-        "VMware",
-        "Windows Server",
-        "Cisco",
-        "Active Directory",
-        "GDPR",
-        "ITIL"
       ]
     },
     {
@@ -357,7 +309,6 @@ const workExperiences = {
       company: "Pitman Training Group",
       companylogo: require("./assets/images/pitmanLogo.png"),
       date: "April 2017 – September 2017 (6 months)",
-      location: "Wetherby, UK",
       desc: "Managed Office 365 and Azure infrastructure across 50+ global franchises, implementing automation and security policies for distributed education network.",
       descBullets: [
         "🌍 Managed Office 365 and Azure across 50+ global franchises ensuring consistent performance and 99.5% availability",
@@ -365,14 +316,6 @@ const workExperiences = {
         "📊 Monitored service health via Microsoft 365 admin center and Azure activity logs, maintaining rapid response to performance issues",
         "🔐 Enforced security policies including password rotation, group permissions, and audit logging meeting GDPR compliance standards",
         "💼 Supported Microsoft Dynamics CRM 2016 integration with Azure AD and comprehensive user access governance"
-      ],
-      technologies: [
-        "Office 365",
-        "Azure",
-        "PowerShell",
-        "Microsoft Dynamics CRM",
-        "Azure AD",
-        "GDPR"
       ]
     },
     {
@@ -380,7 +323,6 @@ const workExperiences = {
       company: "York Data Services",
       companylogo: require("./assets/images/yorkdataservicesLogo.png"),
       date: "September 2015 – April 2017 (1 year 7 months)",
-      location: "York, UK",
       desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
       descBullets: [
         "🏗️ Designed, built, and managed secure multi-site business networks including broadband/fiber rollout, VDSL, leased lines, and VPNs",
@@ -388,16 +330,6 @@ const workExperiences = {
         "🌐 Provisioned domains, DNS, VPNs, remote desktop, and cloud services enabling digital transformation for growing businesses",
         "🏇 Provided critical support for major events including York Racecourse, ensuring high-availability infrastructure during peak operations",
         "💾 Supported Windows Server, SQL, VMware, VEEAM, Cisco, and Juniper environments maintaining business continuity and disaster recovery"
-      ],
-      technologies: [
-        "Windows Server",
-        "Office 365",
-        "Exchange",
-        "VMware",
-        "VEEAM",
-        "Cisco",
-        "Juniper",
-        "SQL Server"
       ]
     },
     {
@@ -405,20 +337,11 @@ const workExperiences = {
       company: "STEM Learning",
       companylogo: require("./assets/images/stemlearningLogo.png"),
       date: "April 2013 – August 2015 (2 years 4 months)",
-      location: "York, UK",
       desc: "Supported multi-platform STEM education environments and cloud migrations while developing expertise in virtualization and mobile device management.",
       descBullets: [
         "💻 Supported staff and delegates on Microsoft, Apple, and Android platforms including Office 365 and cloud-based services",
         "🖥️ Managed ESXi virtualization, backup systems, and iOS MDM coordinating seamless O365 migrations",
         "📖 Delivered comprehensive user training, technical documentation, and onboarding support for cloud and remote services"
-      ],
-      technologies: [
-        "Office 365",
-        "ESXi",
-        "iOS MDM",
-        "Microsoft",
-        "Apple",
-        "Android"
       ]
     }
   ]
@@ -435,29 +358,28 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Major Projects & Achievements",
+  subtitle: "KEY INFRASTRUCTURE PROJECTS AND CLOUD TRANSFORMATIONS I'VE LED",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/avivaLogo_new.png"),
+      projectName: "AWS Multi-Petabyte Storage Migration",
+      projectDesc: "Led the migration of 4PB of sensitive financial data to AWS-native services, ensuring FCA compliance and achieving £10M+ annual cost savings through automation and optimization.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Achievement",
+          url: "https://www.linkedin.com/in/darren-storey/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/benendenLogo.png"),
+      projectName: "Azure Migration & Office 365 Transformation",
+      projectDesc: "Project workstream lead for comprehensive Azure migration and O365 transformation across healthcare organization, ensuring zero-downtime transitions and GDPR compliance.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn More",
+          url: "https://www.linkedin.com/in/darren-storey/"
         }
       ]
     }
@@ -471,54 +393,45 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional achievements, industry recognition, and technical certifications that demonstrate expertise in cloud infrastructure and DevOps.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Aviva Company Award Winner",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Won internal company award for resolving critical global Windows Server 2019 file lock bug, stabilizing high-risk actuarial workloads across all Aviva business units.",
+      image: require("./assets/images/avivaLogo_new.png"),
+      imageAlt: "Aviva Award Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Learn More",
+          url: "https://www.linkedin.com/in/darren-storey/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Cloud Specialist",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Extensive hands-on experience with AWS services including S3, FSx, EC2, RDS, Lambda, VPC, and CloudWatch, managing multi-petabyte infrastructure.",
+      image: require("./assets/images/facebookLogo.png"), // Using as placeholder - will need AWS logo
+      imageAlt: "AWS Certification Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Portfolio",
+          url: "https://github.com/dstorey87"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "DevOps & Automation Expert",
+      subtitle: "Proven track record in CI/CD pipeline automation, infrastructure as code with Terraform, and achieving 60% reduction in operational overhead through PowerShell and Python automation.",
+      image: require("./assets/images/quoraLogo.png"), // Using as placeholder - will need DevOps logo
+      imageAlt: "DevOps Excellence Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "GitHub Profile", url: "https://github.com/dstorey87"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "LinkedIn Profile",
+          url: "https://www.linkedin.com/in/darren-storey/"
         }
       ]
     }
@@ -529,22 +442,22 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Technical Articles & Insights",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Sharing knowledge and insights from 12+ years of experience in cloud infrastructure, DevOps automation, and platform engineering.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.linkedin.com/in/darren-storey/",
+      title: "AWS Multi-Petabyte Storage Migration: Lessons Learned",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Key insights from migrating 4PB of sensitive financial data to AWS-native services while maintaining FCA compliance and achieving significant cost savings."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.linkedin.com/in/darren-storey/",
+      title: "DevOps Transformation in Regulated Environments",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "How we implemented CI/CD pipelines and infrastructure automation in highly regulated financial services while meeting GDPR and ISO 27001 requirements."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -553,17 +466,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "TALKS & PRESENTATIONS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "SHARING EXPERTISE IN CLOUD INFRASTRUCTURE AND DEVOPS TRANSFORMATION 🎙️"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "AWS Storage Optimization Strategies",
+      subtitle: "Internal presentation on achieving £10M+ annual cost savings",
+      slides_url: "https://www.linkedin.com/in/darren-storey/",
+      event_url: "https://www.linkedin.com/in/darren-storey/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -572,14 +485,14 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Podcast & Interviews 🎙️"),
+  subtitle: "DISCUSSING CLOUD INFRASTRUCTURE AND DEVOPS TRANSFORMATION",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    // "https://anchor.fm/codevcast/embed/episodes/DevStory---Darren-Storey-DevOps-Engineer-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -606,7 +519,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
