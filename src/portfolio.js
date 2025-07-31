@@ -378,7 +378,7 @@ const workExperiences = {
     {
       role: "IT Network Engineer",
       company: "York Data Services",
-      companylogo: require("./assets/images/ydsLogo.webp"),
+      companylogo: require("./assets/images/yorkdataservicesLogo.png"),
       date: "September 2015 – April 2017 (1 year 7 months)",
       location: "York, UK",
       desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
@@ -403,7 +403,7 @@ const workExperiences = {
     {
       role: "IT Support Trainee",
       company: "STEM Learning",
-      companylogo: require("./assets/images/stemLogo.webp"),
+      companylogo: require("./assets/images/stemlearningLogo.png"),
       date: "April 2013 – August 2015 (2 years 4 months)",
       location: "York, UK",
       desc: "Supported multi-platform STEM education environments and cloud migrations while developing expertise in virtualization and mobile device management.",

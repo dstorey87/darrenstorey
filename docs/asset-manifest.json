@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/darrenstorey/static/css/main.e585acae.css",
-    "main.js": "/darrenstorey/static/js/main.30ad2956.js",
+    "main.js": "/darrenstorey/static/js/main.9bc8331e.js",
     "static/css/290.9d91cb35.chunk.css": "/darrenstorey/static/css/290.9d91cb35.chunk.css",
     "static/js/290.73457532.chunk.js": "/darrenstorey/static/js/290.73457532.chunk.js",
     "static/css/148.b3b9a0d2.chunk.css": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css",
     "static/js/148.04997143.chunk.js": "/darrenstorey/static/js/148.04997143.chunk.js",
     "static/media/stanfordLogo.png": "/darrenstorey/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
+    "static/media/stemlearningLogo.png": "/darrenstorey/static/media/stemlearningLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/harvardLogo.png": "/darrenstorey/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
+    "static/media/yorkdataservicesLogo.png": "/darrenstorey/static/media/yorkdataservicesLogo.542dab89bfb35b7f5c0d.png",
     "static/media/Montserrat-Regular.ttf": "/darrenstorey/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/darrenstorey/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/darrenstorey/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/darrenstorey/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/darrenstorey/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/darrenstorey/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/stemLogo.webp": "/darrenstorey/static/media/stemLogo.a352154fd1f198c6882a.webp",
     "static/media/benendenLogo.webp": "/darrenstorey/static/media/benendenLogo.59ae58027122dc11185d.webp",
-    "static/media/ydsLogo.webp": "/darrenstorey/static/media/ydsLogo.bc70fa78f91117e8ecf8.webp",
     "static/media/avivaLogo.webp": "/darrenstorey/static/media/avivaLogo.805d3979ac7ac2314b23.webp",
     "static/media/codeInLogo.webp": "/darrenstorey/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/darrenstorey/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
@@ -28,7 +28,7 @@
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.e585acae.css.map": "/darrenstorey/static/css/main.e585acae.css.map",
-    "main.30ad2956.js.map": "/darrenstorey/static/js/main.30ad2956.js.map",
+    "main.9bc8331e.js.map": "/darrenstorey/static/js/main.9bc8331e.js.map",
     "290.9d91cb35.chunk.css.map": "/darrenstorey/static/css/290.9d91cb35.chunk.css.map",
     "290.73457532.chunk.js.map": "/darrenstorey/static/js/290.73457532.chunk.js.map",
     "148.b3b9a0d2.chunk.css.map": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.e585acae.css",
-    "static/js/main.30ad2956.js"
+    "static/js/main.9bc8331e.js"
   ]
 }
