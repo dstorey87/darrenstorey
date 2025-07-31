@@ -259,75 +259,81 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Storage DevOps Engineer",
+      role: "Storage DevOps & CloudOps Engineer",
       company: "Aviva",
       companylogo: require("./assets/images/avivaLogo.webp"),
-      date: "July 2024 – Present",
-      desc: "Leading storage infrastructure automation and optimization initiatives for enterprise-scale insurance operations.",
+      date: "May 2024 – Present",
+      duration: "8 months",
+      desc: "Leading DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
       descBullets: [
-        "Implemented automated storage provisioning using Ansible and PowerShell, reducing deployment time by 70%",
-        "Optimized NetApp storage systems, improving performance by 40% and reducing costs by 25%",
-        "Designed disaster recovery solutions ensuring 99.99% uptime for critical business applications"
+        "🏗️ Architected multi-petabyte AWS infrastructure (S3, FSx, EC2, RDS, Lambda, VPC) with Windows DFS, Linux systems, and hybrid file architectures ensuring FCA, GDPR & ISO 27001 compliance",
+        "⚡ Automated end-to-end release pipelines with XL Release, Jenkins, ADO, Git & ServiceNow business approval gates, eliminating manual maintenance windows and accelerating time-to-market by 60%",
+        "🛡️ Managed 24/7 on-call and major incident response as Storage SME, leading root-cause analysis, forensic logging, and post-mortems with <5 min MTTR through automated scaling and telemetry"
       ]
     },
     {
-      role: "CloudOps Engineer",
+      role: "Storage SME & Technical Analyst",
       company: "Aviva",
       companylogo: require("./assets/images/avivaLogo.webp"),
-      date: "January 2023 – July 2024",
-      desc: "Managed multi-cloud infrastructure supporting millions of insurance customers across AWS and Azure platforms.",
+      date: "June 2021 – May 2024",
+      duration: "2 years 11 months",
+      desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
       descBullets: [
-        "Orchestrated cloud migrations for 50+ applications using Terraform and CloudFormation",
-        "Reduced infrastructure costs by 35% through right-sizing and automated resource management",
-        "Implemented comprehensive monitoring with Prometheus and Grafana, achieving 99.95% uptime"
+        "🏆 Resolved global Windows Server 2019 file lock bug, winning internal company award and stabilizing high-risk actuarial workloads across all Aviva business units",
+        "💰 Delivered £10M+ annual infrastructure cost savings through storage optimization, architectural improvements, and automated operational workflows",
+        "🔧 Automated critical operations with PowerShell, Groovy & Python including backup lifecycle, tenancy management, AMI generation, and restore workflows maintaining 99.99% uptime"
       ]
     },
     {
-      role: "DevOps Engineer",
-      company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo.webp"),
-      date: "July 2021 – January 2023",
-      desc: "Developed CI/CD pipelines and infrastructure automation for insurance platform modernization.",
-      descBullets: [
-        "Built Jenkins pipelines reducing deployment time from hours to minutes",
-        "Containerized 30+ legacy applications using Docker and Kubernetes",
-        "Established Infrastructure as Code practices using Terraform and Ansible"
-      ]
-    },
-    {
-      role: "Technical Operations Specialist",
+      role: "Technical Engineer",
       company: "Benenden Health",
       companylogo: require("./assets/images/benendenLogo.png"),
-      date: "September 2019 – July 2021",
-      desc: "Supported healthcare IT infrastructure and application deployment for membership management systems.",
+      date: "October 2017 – July 2019",
+      duration: "1 year 9 months",
+      desc: "Project workstream lead for Azure migration, Active Directory, and Office 365 projects, supporting secure data transitions and hybrid cloud operations.",
       descBullets: [
-        "Maintained critical healthcare applications serving 900,000+ members",
-        "Implemented backup and recovery procedures reducing RTO by 60%",
-        "Collaborated with development teams to optimize application performance"
+        "☁️ Led Azure migration and Office 365 transformation projects across multi-site healthcare infrastructure serving 900,000+ members",
+        "🌐 Deployed and configured Cisco switch/wireless networks with DR operations for secure healthcare data transmission",
+        "📚 Delivered comprehensive training programs covering O365 best practices, security awareness, and GDPR compliance"
       ]
     },
     {
-      role: "IT Support Specialist",
+      role: "Systems Administrator",
       company: "Pitman Training",
       companylogo: require("./assets/images/pitmanLogo.png"),
-      date: "March 2017 – September 2019",
-      desc: "Provided comprehensive IT support and system administration for educational technology platforms.",
+      date: "April 2017 – September 2017",
+      duration: "5 months",
+      desc: "Managed Office 365 and Azure across 50+ global franchises, supporting secure hybrid cloud infrastructure with automated deployments.",
       descBullets: [
-        "Managed Windows Server environments and Active Directory for multiple training centers",
-        "Resolved 95% of incidents within SLA timeframes",
-        "Led migration to cloud-based learning management systems"
+        "🌍 Administered Office 365 & Azure infrastructure across 50+ global franchise locations ensuring consistent performance and availability",
+        "🤖 Automated deployment and provisioning tasks using PowerShell scripting, implementing infrastructure-as-code principles",
+        "🔒 Enforced security policies including GDPR compliance, password rotation, and audit logging across all franchise operations"
+      ]
+    },
+    {
+      role: "IT Network Engineer",
+      company: "York Data Services",
+      companylogo: require("./assets/images/ydsLogo.webp"),
+      date: "September 2015 – April 2017",
+      duration: "1 year 7 months",
+      desc: "Delivered full-lifecycle network and IT solutions for regional businesses, from structured cabling to cloud migrations and managed services.",
+      descBullets: [
+        "🏗️ Designed and built secure multi-site business networks including broadband/fibre rollout, VPNs, Wi-Fi, and cloud backup solutions",
+        "📧 Migrated dozens of clients from on-premises Exchange to Office 365 and hybrid cloud environments",
+        "🎯 Provided critical support for major events including York Racecourse, ensuring high availability during peak operations"
       ]
     },
     {
       role: "IT Support Trainee",
-      company: "York Data Services",
-      companylogo: require("./assets/images/ydsLogo.webp"),
-      date: "June 2013 – March 2017",
-      desc: "Gained foundational experience in IT support and system administration while developing technical expertise.",
+      company: "Myscience",
+      companylogo: require("./assets/images/myscienceLogo.png"),
+      date: "April 2013 – August 2015",
+      duration: "2 years 4 months",
+      desc: "Supported multi-platform environments and coordinated cloud migrations while building foundational IT and virtualization expertise.",
       descBullets: [
-        "Provided first-line support for 200+ users across multiple client sites",
-        "Assisted with server maintenance and network troubleshooting",
-        "Completed Microsoft and CompTIA certifications during training period"
+        "💻 Supported Microsoft, Apple, and Android platforms including Office 365 and cloud-based services for staff and delegates",
+        "🔧 Managed ESXi virtualization, backups, and mobile device administration (iOS MDM) across diverse technology environments",
+        "📖 Delivered user training and technical documentation, assisting in onboarding to cloud and remote services"
       ]
     }
   ]
