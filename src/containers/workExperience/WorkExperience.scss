@@ -1,8 +1,8 @@
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -27,100 +27,6 @@
   flex: 1;
 }
 
-/* Carousel Styles */
-.experience-carousel-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem 0;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.experience-carousel {
-  overflow: hidden;
-  width: 100%;
-  margin: 0 1rem;
-}
-
-.experience-cards-wrapper {
-  display: flex;
-  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  will-change: transform;
-}
-
-.experience-card-container {
-  padding: 0 1rem;
-  box-sizing: border-box;
-  min-width: 0; /* Prevent flex item overflow */
-}
-
-.carousel-nav {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-}
-
-.carousel-nav:hover:not(.disabled) {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-}
-
-.carousel-nav.disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-  background: #ccc;
-}
-
-.carousel-nav.prev {
-  margin-right: 1rem;
-}
-
-.carousel-nav.next {
-  margin-left: 1rem;
-}
-
-.carousel-dots {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 2rem;
-}
-
-.carousel-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: none;
-  background: rgba(102, 126, 234, 0.3);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.carousel-dot.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  transform: scale(1.2);
-}
-
-.carousel-dot:hover {
-  background: rgba(102, 126, 234, 0.6);
-}
-
 /* Media Queries */
 
 @media (max-width: 1380px) {
@@ -130,6 +36,7 @@
   .experience-cards-div {
     gap: 1.5rem;
     padding: 0 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 }
 
@@ -148,28 +55,14 @@
   .experience-container {
     padding: 20px 10px;
   }
-  
-  .carousel-nav {
-    width: 40px;
-    height: 40px;
-    font-size: 16px;
-  }
-  
-  .experience-carousel {
-    margin: 0 0.5rem;
-  }
 }
 
 @media (max-width: 480px) {
-  .carousel-nav {
-    display: none; /* Hide nav buttons on very small screens */
+  .experience-container {
+    padding: 15px 5px;
   }
   
-  .experience-carousel {
-    margin: 0;
-  }
-  
-  .experience-card-container {
-    padding: 0 0.5rem;
+  .experience-cards-div {
+    gap: 1rem;
   }
 }

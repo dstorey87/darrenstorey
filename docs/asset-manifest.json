@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/darrenstorey/static/css/main.5ff95d7d.css",
-    "main.js": "/darrenstorey/static/js/main.1885cff4.js",
-    "static/css/64.bba8fa55.chunk.css": "/darrenstorey/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.56dc6704.chunk.js": "/darrenstorey/static/js/64.56dc6704.chunk.js",
-    "static/css/769.b3cbb36b.chunk.css": "/darrenstorey/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.bda0d7b7.chunk.js": "/darrenstorey/static/js/769.bda0d7b7.chunk.js",
+    "main.css": "/darrenstorey/static/css/main.6ee6480e.css",
+    "main.js": "/darrenstorey/static/js/main.474cde37.js",
+    "static/css/290.9d91cb35.chunk.css": "/darrenstorey/static/css/290.9d91cb35.chunk.css",
+    "static/js/290.73457532.chunk.js": "/darrenstorey/static/js/290.73457532.chunk.js",
+    "static/css/148.b3b9a0d2.chunk.css": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css",
+    "static/js/148.e69aa925.chunk.js": "/darrenstorey/static/js/148.e69aa925.chunk.js",
     "static/media/benendenhealthLogo.png": "/darrenstorey/static/media/benendenhealthLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/stanfordLogo.png": "/darrenstorey/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/stemlearningLogo.png": "/darrenstorey/static/media/stemlearningLogo.5a8e3a0a00949c93a9b8.png",
@@ -26,15 +26,15 @@
     "static/media/nextuLogo.webp": "/darrenstorey/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.5ff95d7d.css.map": "/darrenstorey/static/css/main.5ff95d7d.css.map",
-    "main.1885cff4.js.map": "/darrenstorey/static/js/main.1885cff4.js.map",
-    "64.bba8fa55.chunk.css.map": "/darrenstorey/static/css/64.bba8fa55.chunk.css.map",
-    "64.56dc6704.chunk.js.map": "/darrenstorey/static/js/64.56dc6704.chunk.js.map",
-    "769.b3cbb36b.chunk.css.map": "/darrenstorey/static/css/769.b3cbb36b.chunk.css.map",
-    "769.bda0d7b7.chunk.js.map": "/darrenstorey/static/js/769.bda0d7b7.chunk.js.map"
+    "main.6ee6480e.css.map": "/darrenstorey/static/css/main.6ee6480e.css.map",
+    "main.474cde37.js.map": "/darrenstorey/static/js/main.474cde37.js.map",
+    "290.9d91cb35.chunk.css.map": "/darrenstorey/static/css/290.9d91cb35.chunk.css.map",
+    "290.73457532.chunk.js.map": "/darrenstorey/static/js/290.73457532.chunk.js.map",
+    "148.b3b9a0d2.chunk.css.map": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css.map",
+    "148.e69aa925.chunk.js.map": "/darrenstorey/static/js/148.e69aa925.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ff95d7d.css",
-    "static/js/main.1885cff4.js"
+    "static/css/main.6ee6480e.css",
+    "static/js/main.474cde37.js"
   ]
 }
