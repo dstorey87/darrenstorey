@@ -266,7 +266,7 @@ const workExperiences = {
     {
       role: "Storage DevOps & CloudOps Engineer (Remote)",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo.webp"),
+      companylogo: require("./assets/images/avivaLogo_new.png"),
       date: "May 2024 – Present (8 months)",
       location: "Remote, UK & Global Teams",
       desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
@@ -299,7 +299,7 @@ const workExperiences = {
     {
       role: "Storage SME & Technical Analyst (Remote)",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo.webp"),
+      companylogo: require("./assets/images/avivaLogo_new.png"),
       date: "June 2021 – May 2024 (2 years 11 months)",
       location: "Remote, UK & Global Teams",
       desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
@@ -330,7 +330,7 @@ const workExperiences = {
     {
       role: "Technical Engineer",
       company: "Benenden Health",
-      companylogo: require("./assets/images/benendenLogo.webp"),
+      companylogo: require("./assets/images/benendenLogo.png"),
       date: "October 2017 – July 2019 (1 year 9 months)",
       location: "York, UK",
       desc: "Project workstream lead for Azure migration and Office 365 transformation, supporting secure data transitions and hybrid cloud operations for healthcare organization.",
@@ -355,7 +355,7 @@ const workExperiences = {
     {
       role: "Systems Administrator",
       company: "Pitman Training Group",
-      companylogo: require("./assets/images/pitmanLogo.webp"),
+      companylogo: require("./assets/images/pitmanLogo.png"),
       date: "April 2017 – September 2017 (6 months)",
       location: "Wetherby, UK",
       desc: "Managed Office 365 and Azure infrastructure across 50+ global franchises, implementing automation and security policies for distributed education network.",
