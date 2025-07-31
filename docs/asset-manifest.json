@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/darrenstorey/static/css/main.e8187d21.css",
-    "main.js": "/darrenstorey/static/js/main.6dbea902.js",
+    "main.css": "/darrenstorey/static/css/main.e585acae.css",
+    "main.js": "/darrenstorey/static/js/main.30ad2956.js",
     "static/css/290.9d91cb35.chunk.css": "/darrenstorey/static/css/290.9d91cb35.chunk.css",
     "static/js/290.73457532.chunk.js": "/darrenstorey/static/js/290.73457532.chunk.js",
     "static/css/148.b3b9a0d2.chunk.css": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css",
-    "static/js/148.e69aa925.chunk.js": "/darrenstorey/static/js/148.e69aa925.chunk.js",
+    "static/js/148.04997143.chunk.js": "/darrenstorey/static/js/148.04997143.chunk.js",
     "static/media/stanfordLogo.png": "/darrenstorey/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/harvardLogo.png": "/darrenstorey/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
     "static/media/Montserrat-Regular.ttf": "/darrenstorey/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -27,15 +27,15 @@
     "static/media/nextuLogo.webp": "/darrenstorey/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.e8187d21.css.map": "/darrenstorey/static/css/main.e8187d21.css.map",
-    "main.6dbea902.js.map": "/darrenstorey/static/js/main.6dbea902.js.map",
+    "main.e585acae.css.map": "/darrenstorey/static/css/main.e585acae.css.map",
+    "main.30ad2956.js.map": "/darrenstorey/static/js/main.30ad2956.js.map",
     "290.9d91cb35.chunk.css.map": "/darrenstorey/static/css/290.9d91cb35.chunk.css.map",
     "290.73457532.chunk.js.map": "/darrenstorey/static/js/290.73457532.chunk.js.map",
     "148.b3b9a0d2.chunk.css.map": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css.map",
-    "148.e69aa925.chunk.js.map": "/darrenstorey/static/js/148.e69aa925.chunk.js.map"
+    "148.04997143.chunk.js.map": "/darrenstorey/static/js/148.04997143.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8187d21.css",
-    "static/js/main.6dbea902.js"
+    "static/css/main.e585acae.css",
+    "static/js/main.30ad2956.js"
   ]
 }
