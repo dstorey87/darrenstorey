@@ -266,7 +266,7 @@ const workExperiences = {
     {
       role: "Storage DevOps & CloudOps Engineer (Remote)",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo_new.png"),
+      companylogo: require("./assets/images/avivaLogo.webp"),
       date: "May 2024 – Present (8 months)",
       location: "Remote, UK & Global Teams",
       desc: "Led DevOps transformation in secure actuarial clean room, architecting AWS-first multi-tenant infrastructure serving £10M+ annual cost savings through automation and optimization.",
@@ -299,7 +299,7 @@ const workExperiences = {
     {
       role: "Storage SME & Technical Analyst (Remote)",
       company: "Aviva",
-      companylogo: require("./assets/images/avivaLogo_new.png"),
+      companylogo: require("./assets/images/avivaLogo.webp"),
       date: "June 2021 – May 2024 (2 years 11 months)",
       location: "Remote, UK & Global Teams",
       desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/darrenstorey/static/css/main.68af8c53.css",
-    "main.js": "/darrenstorey/static/js/main.0fec0926.js",
+    "main.css": "/darrenstorey/static/css/main.e8187d21.css",
+    "main.js": "/darrenstorey/static/js/main.6dbea902.js",
     "static/css/290.9d91cb35.chunk.css": "/darrenstorey/static/css/290.9d91cb35.chunk.css",
     "static/js/290.73457532.chunk.js": "/darrenstorey/static/js/290.73457532.chunk.js",
     "static/css/148.b3b9a0d2.chunk.css": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/stemLogo.webp": "/darrenstorey/static/media/stemLogo.a352154fd1f198c6882a.webp",
     "static/media/benendenLogo.webp": "/darrenstorey/static/media/benendenLogo.59ae58027122dc11185d.webp",
     "static/media/ydsLogo.webp": "/darrenstorey/static/media/ydsLogo.bc70fa78f91117e8ecf8.webp",
+    "static/media/avivaLogo.webp": "/darrenstorey/static/media/avivaLogo.805d3979ac7ac2314b23.webp",
     "static/media/codeInLogo.webp": "/darrenstorey/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/darrenstorey/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pitmanLogo.webp": "/darrenstorey/static/media/pitmanLogo.b007c14b7ec29515e697.webp",
@@ -26,15 +27,15 @@
     "static/media/nextuLogo.webp": "/darrenstorey/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.68af8c53.css.map": "/darrenstorey/static/css/main.68af8c53.css.map",
-    "main.0fec0926.js.map": "/darrenstorey/static/js/main.0fec0926.js.map",
+    "main.e8187d21.css.map": "/darrenstorey/static/css/main.e8187d21.css.map",
+    "main.6dbea902.js.map": "/darrenstorey/static/js/main.6dbea902.js.map",
     "290.9d91cb35.chunk.css.map": "/darrenstorey/static/css/290.9d91cb35.chunk.css.map",
     "290.73457532.chunk.js.map": "/darrenstorey/static/js/290.73457532.chunk.js.map",
     "148.b3b9a0d2.chunk.css.map": "/darrenstorey/static/css/148.b3b9a0d2.chunk.css.map",
     "148.e69aa925.chunk.js.map": "/darrenstorey/static/js/148.e69aa925.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68af8c53.css",
-    "static/js/main.0fec0926.js"
+    "static/css/main.e8187d21.css",
+    "static/js/main.6dbea902.js"
   ]
 }
