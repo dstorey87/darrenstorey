@@ -29,8 +29,8 @@ function calculateDuration(startDate) {
 
 // Illustration
 const illustration = {
-  animated: false, // Set to false to use static image instead of Lottie animations
-  professionalPhoto: true // Set to true to use professional headshot
+  animated: true, // Set to true to enable Lottie animations in other sections
+  professionalPhoto: true // Set to true to use professional headshot in greeting
 };
 
 // Splash Screen
