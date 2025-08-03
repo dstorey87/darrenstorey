@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useState} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -13,9 +13,11 @@ import {
   achievementSection,
   resumeSection
 } from "../../portfolio";
+import profilePic from "../../assets/images/darren-tech-background.png";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const [showProfileModal, setShowProfileModal] = useState(false);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -25,13 +27,21 @@ function Header() {
   const viewResume = resumeSection.display;
 
   return (
-    <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
-        </a>
+    <>
+      <Headroom>
+        <header className={isDark ? "dark-menu header" : "header"}>
+          <a href="/" className="logo">
+            <span className="grey-color"> &lt;</span>
+            <span className="logo-name">{greeting.username}</span>
+            <span className="grey-color">/&gt;</span>
+            <img 
+              src={profilePic} 
+              alt="Profile" 
+              className="mini-profile-pic"
+              onClick={() => setShowProfileModal(true)}
+              title="Click to view full profile picture"
+            />
+          </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -88,6 +98,28 @@ function Header() {
         </ul>
       </header>
     </Headroom>
+    
+    {/* Profile Picture Modal */}
+    {showProfileModal && (
+      <div className="profile-modal-overlay" onClick={() => setShowProfileModal(false)}>
+        <div className="profile-modal-content" onClick={(e) => e.stopPropagation()}>
+          <button 
+            className="profile-modal-close"
+            onClick={() => setShowProfileModal(false)}
+            aria-label="Close profile picture"
+          >
+            ×
+          </button>
+          <img 
+            src={profilePic} 
+            alt="Darren Storey - Full Profile" 
+            className="profile-modal-image"
+          />
+          <p className="profile-modal-caption">Darren Storey - CloudOps & DevOps Engineer</p>
+        </div>
+      </div>
+    )}
+  </>
   );
 }
 export default Header;

@@ -68,6 +68,123 @@
   padding: 0 10px;
 }
 
+.mini-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid $subTitle;
+  transition: all 0.3s ease;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.mini-profile-pic:hover {
+  border-color: $buttonColor;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Modal Styles */
+.profile-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.profile-modal-content {
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 90%;
+  max-height: 90%;
+  cursor: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8) translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.profile-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: $textColor;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.profile-modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: $buttonColor;
+}
+
+.profile-modal-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 15px;
+  border: 3px solid $subTitle;
+  object-fit: cover;
+}
+
+.profile-modal-caption {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  color: $textColor;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Dark mode styles for modal */
+.dark-menu ~ .profile-modal-overlay .profile-modal-content {
+  background: $darkBackground;
+  border: 2px solid $subTitle;
+}
+
+.dark-menu ~ .profile-modal-overlay .profile-modal-close {
+  color: $textColorDark;
+}
+
+.dark-menu ~ .profile-modal-overlay .profile-modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $buttonColor;
+}
+
+.dark-menu ~ .profile-modal-overlay .profile-modal-caption {
+  color: $textColorDark;
+}
+
 /* menu */
 
 .header .menu {
