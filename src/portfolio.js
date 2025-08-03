@@ -29,7 +29,8 @@ function calculateDuration(startDate) {
 
 // Illustration
 const illustration = {
-  animated: true // Set to false to use static SVG illustrations instead of Lottie animations
+  animated: false, // Set to false to use static image instead of Lottie animations
+  professionalPhoto: true // Set to true to use professional headshot
 };
 
 // Splash Screen
@@ -49,7 +50,7 @@ const greeting = {
     "Award-winning DevOps specialist delivering £10M+ annual savings through AWS automation and CI/CD transformation at FTSE 100 companies — 12+ years IT experience with 5+ years remote expertise in multi-petabyte cloud infrastructure, security compliance, and platform engineering."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://dstorey87.github.io/darrenstorey/Darren-Storey-20250801.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
