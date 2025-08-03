@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/darrenstorey/static/css/main.3c05bd6f.css",
-    "main.js": "/darrenstorey/static/js/main.47570fa3.js",
+    "main.js": "/darrenstorey/static/js/main.8816a804.js",
     "static/css/487.bb36206c.chunk.css": "/darrenstorey/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/darrenstorey/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/darrenstorey/static/css/990.c6a7ee28.chunk.css",
@@ -10,9 +10,11 @@
     "static/media/Montserrat-Regular.ttf": "/darrenstorey/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/darrenstorey/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/darrenstorey/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/devop logo.png": "/darrenstorey/static/media/devop logo.c80017f1028e967d9d68.png",
     "static/media/contactMailDark.svg": "/darrenstorey/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/darrenstorey/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/myscienceLogo.png": "/darrenstorey/static/media/myscienceLogo.a352154fd1f198c6882a.png",
+    "static/media/amazon-web-services-aws-logo.png": "/darrenstorey/static/media/amazon-web-services-aws-logo.a944fde4597fd02256ce.png",
     "static/media/benendenLogo.png": "/darrenstorey/static/media/benendenLogo.59ae58027122dc11185d.png",
     "static/media/ydsLogo.webp": "/darrenstorey/static/media/ydsLogo.bc70fa78f91117e8ecf8.webp",
     "static/media/avivaLogo.webp": "/darrenstorey/static/media/avivaLogo.805d3979ac7ac2314b23.webp",
@@ -20,7 +22,7 @@
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3c05bd6f.css.map": "/darrenstorey/static/css/main.3c05bd6f.css.map",
-    "main.47570fa3.js.map": "/darrenstorey/static/js/main.47570fa3.js.map",
+    "main.8816a804.js.map": "/darrenstorey/static/js/main.8816a804.js.map",
     "487.bb36206c.chunk.css.map": "/darrenstorey/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/darrenstorey/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/darrenstorey/static/css/990.c6a7ee28.chunk.css.map",
@@ -28,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.3c05bd6f.css",
-    "static/js/main.47570fa3.js"
+    "static/js/main.8816a804.js"
   ]
 }

@@ -45,7 +45,7 @@ const splashScreen = {
 
 const greeting = {
   username: "Darren Storey",
-  title: "Senior DevOps & CloudOps Engineer",
+  title: "DevOps & Senior Cloud/FinOps Engineer",
   subTitle: emoji(
     "Award-winning DevOps specialist delivering £10M+ annual savings through AWS automation and CI/CD transformation at FTSE 100 companies — 12+ years IT experience with 5+ years remote expertise in multi-petabyte cloud infrastructure, security compliance, and platform engineering."
   ),
@@ -433,7 +433,7 @@ const achievementSection = {
       title: "AWS Cloud Infrastructure Expert",
       subtitle:
         "Extensive hands-on experience with AWS services including S3, FSx, EC2, RDS, Lambda, VPC, and CloudWatch, managing multi-petabyte infrastructure with 99.99% uptime.",
-      image: require("./assets/images/skill.svg"),
+      image: require("./assets/images/amazon-web-services-aws-logo.png"),
       imageAlt: "AWS Cloud Logo",
       footerLink: [
         {
@@ -445,7 +445,7 @@ const achievementSection = {
     {
       title: "DevOps & Automation Specialist",
       subtitle: "Proven track record in CI/CD pipeline automation, infrastructure as code with Terraform, and achieving 60% reduction in operational overhead through PowerShell, Ruby, and Groovy automation.",
-      image: require("./assets/images/skill.svg"),
+      image: require("./assets/images/devop logo.png"),
       imageAlt: "DevOps Excellence Logo",
       footerLink: [
         {name: "GitHub Profile", url: "https://github.com/dstorey87"},
