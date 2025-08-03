@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/darrenstorey/static/css/main.72add53a.css",
+    "main.css": "/darrenstorey/static/css/main.385ee00e.css",
     "main.js": "/darrenstorey/static/js/main.72e264b7.js",
     "static/css/487.bb36206c.chunk.css": "/darrenstorey/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/darrenstorey/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/darrenstorey/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.6907037d.chunk.js": "/darrenstorey/static/js/990.6907037d.chunk.js",
     "static/media/darren-tech-background.png": "/darrenstorey/static/media/darren-tech-background.a61d6e45bae91ed6c926.png",
-    "static/media/Montserrat-Regular.ttf": "/darrenstorey/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/darrenstorey/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/darrenstorey/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/devop logo.png": "/darrenstorey/static/media/devop logo.c80017f1028e967d9d68.png",
@@ -21,7 +20,7 @@
     "static/media/skill.svg": "/darrenstorey/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/darrenstorey/index.html",
     "static/media/talksCardBack.svg": "/darrenstorey/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.72add53a.css.map": "/darrenstorey/static/css/main.72add53a.css.map",
+    "main.385ee00e.css.map": "/darrenstorey/static/css/main.385ee00e.css.map",
     "main.72e264b7.js.map": "/darrenstorey/static/js/main.72e264b7.js.map",
     "487.bb36206c.chunk.css.map": "/darrenstorey/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/darrenstorey/static/js/487.7ae187c0.chunk.js.map",
@@ -29,7 +28,7 @@
     "990.6907037d.chunk.js.map": "/darrenstorey/static/js/990.6907037d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72add53a.css",
+    "static/css/main.385ee00e.css",
     "static/js/main.72e264b7.js"
   ]
 }
