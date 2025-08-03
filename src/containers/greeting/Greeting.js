@@ -59,7 +59,7 @@ export default function Greeting() {
             ) : illustration.professionalPhoto ? (
               <img
                 alt="Darren Storey - Senior DevOps Engineer"
-                src={require("../../assets/images/darren-professional-photo.png")}
+                src={require("../../assets/images/darren-tech-background.png")}
                 className="professional-photo"
               />
             ) : (
