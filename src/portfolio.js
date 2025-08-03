@@ -44,9 +44,9 @@ const splashScreen = {
 
 const greeting = {
   username: "Darren Storey",
-  title: "CloudOps, Storage & Automation Specialist",
+  title: "Senior DevOps & CloudOps Engineer",
   subTitle: emoji(
-    "Award-winning engineer with 12 years in IT delivering multi-petabyte AWS, FinOps, and platform automation for FTSE 100 and blue-chip firms — 5+ years remote, £10M+ saved annually, and known for high-uptime, secure, and cost-efficient cloud estates."
+    "Award-winning DevOps specialist delivering £10M+ annual savings through AWS automation and CI/CD transformation at FTSE 100 companies — 12+ years IT experience with 5+ years remote expertise in multi-petabyte cloud infrastructure, security compliance, and platform engineering."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -100,7 +100,7 @@ const skillsSection = {
       "🔄 Orchestrate blue/green deployments, canary releases, and automated rollback strategies across environments"
     ),
     emoji(
-      "⚡ Automate operational workflows using PowerShell, Python, and Groovy reducing manual overhead by 60%"
+      "⚡ Automate operational workflows using PowerShell, Ruby, and Groovy reducing manual overhead by 60%"
     ),
     emoji(
       "🎯 Ensure business continuity for critical financial systems through proactive capacity planning and SLA management"
@@ -171,9 +171,14 @@ https://fontawesome.com/icons?d=gallery */
       style: {color: "#012456"}
     },
     {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
-      style: {color: "#3776AB"}
+      skillName: "Ruby",
+      fontAwesomeClassname: "fas fa-gem",
+      style: {color: "#CC342D"}
+    },
+    {
+      skillName: "Groovy",
+      fontAwesomeClassname: "fas fa-code",
+      style: {color: "#4298B8"}
     },
     {
       skillName: "JavaScript",
@@ -299,11 +304,11 @@ const workExperiences = {
       companylogo: require("./assets/images/avivaLogo.webp"),
       date: "June 2021 – May 2024",
       duration: "2 years 11 months",
-      desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and winning company award for resolving critical Windows Server 2019 file lock bug.",
+      desc: "Principal SME for AWS storage infrastructure in secure actuarial clean room, supporting multi-petabyte workloads and receiving multiple 'wow' recognitions for resolving critical Windows Server 2019 file lock bug.",
       descBullets: [
-        "🏆 Resolved global Windows Server 2019 file lock bug, winning internal company award and stabilizing high-risk actuarial workloads across all Aviva business units",
+        "🏆 Received multiple 'wow' recognitions for resolving critical global Windows Server 2019 file lock bug, stabilizing high-risk actuarial workloads across all Aviva business units",
         "💰 Delivered £10M+ annual infrastructure cost savings through storage optimization, architectural improvements, and automated operational workflows",
-        "🔧 Automated critical operations with PowerShell, Groovy & Python including backup lifecycle, tenancy management, AMI generation, and restore workflows maintaining 99.99% uptime"
+        "🔧 Automated critical operations with PowerShell, Groovy & Ruby including backup lifecycle, tenancy management, AMI generation, and restore workflows maintaining 99.99% uptime"
       ]
     },
     {
@@ -411,11 +416,11 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Aviva Company Award Winner",
+      title: "Industry Recognition at Aviva",
       subtitle:
-        "Won internal company award for resolving critical global Windows Server 2019 file lock bug, stabilizing high-risk actuarial workloads across all Aviva business units.",
+        "Received multiple 'wow' recognitions for resolving critical global Windows Server 2019 file lock bug, stabilizing high-risk actuarial workloads across all Aviva business units.",
       image: require("./assets/images/avivaLogo.webp"),
-      imageAlt: "Aviva Award Logo",
+      imageAlt: "Aviva Recognition Logo",
       footerLink: [
         {
           name: "Learn More",
@@ -424,11 +429,11 @@ const achievementSection = {
       ]
     },
     {
-      title: "AWS Cloud Specialist",
+      title: "AWS Cloud Infrastructure Expert",
       subtitle:
-        "Extensive hands-on experience with AWS services including S3, FSx, EC2, RDS, Lambda, VPC, and CloudWatch, managing multi-petabyte infrastructure.",
-      image: require("./assets/images/facebookLogo.png"), // Using as placeholder - will need AWS logo
-      imageAlt: "AWS Certification Logo",
+        "Extensive hands-on experience with AWS services including S3, FSx, EC2, RDS, Lambda, VPC, and CloudWatch, managing multi-petabyte infrastructure with 99.99% uptime.",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "AWS Cloud Logo",
       footerLink: [
         {
           name: "View Portfolio",
@@ -437,9 +442,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "DevOps & Automation Expert",
-      subtitle: "Proven track record in CI/CD pipeline automation, infrastructure as code with Terraform, and achieving 60% reduction in operational overhead through PowerShell and Python automation.",
-      image: require("./assets/images/facebookLogo.png"), // Using as placeholder
+      title: "DevOps & Automation Specialist",
+      subtitle: "Proven track record in CI/CD pipeline automation, infrastructure as code with Terraform, and achieving 60% reduction in operational overhead through PowerShell, Ruby, and Groovy automation.",
+      image: require("./assets/images/skill.svg"),
       imageAlt: "DevOps Excellence Logo",
       footerLink: [
         {name: "GitHub Profile", url: "https://github.com/dstorey87"},
