@@ -38,7 +38,11 @@ function Header() {
               src={profilePic} 
               alt="Profile" 
               className="mini-profile-pic"
-              onClick={() => setShowProfileModal(true)}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                setShowProfileModal(true);
+              }}
               title="Click to view full profile picture"
             />
           </a>
