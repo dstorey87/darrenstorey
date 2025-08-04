@@ -9,21 +9,21 @@ import splashAnimation from "./assets/lottie/darrenAvatar.json"; // Custom avata
 function calculateDuration(startDate) {
   const start = new Date(startDate);
   const now = new Date();
-  
+
   let years = now.getFullYear() - start.getFullYear();
   let months = now.getMonth() - start.getMonth();
-  
+
   if (months < 0) {
     years--;
     months += 12;
   }
-  
+
   if (years > 0 && months > 0) {
-    return `${years} year${years > 1 ? 's' : ''} ${months} month${months > 1 ? 's' : ''}`;
+    return `${years} year${years > 1 ? "s" : ""} ${months} month${months > 1 ? "s" : ""}`;
   } else if (years > 0) {
-    return `${years} year${years > 1 ? 's' : ''}`;
+    return `${years} year${years > 1 ? "s" : ""}`;
   } else {
-    return `${months} month${months > 1 ? 's' : ''}`;
+    return `${months} month${months > 1 ? "s" : ""}`;
   }
 }
 
@@ -384,7 +384,8 @@ const bigProjects = {
     {
       image: require("./assets/images/avivaLogo.webp"),
       projectName: "AWS Multi-Petabyte Storage Migration",
-      projectDesc: "Led the migration of 4PB of sensitive financial data to AWS-native services, ensuring FCA compliance and achieving £10M+ annual cost savings through automation and optimization.",
+      projectDesc:
+        "Led the migration of 4PB of sensitive financial data to AWS-native services, ensuring FCA compliance and achieving £10M+ annual cost savings through automation and optimization.",
       footerLink: [
         {
           name: "View Achievement",
@@ -395,7 +396,8 @@ const bigProjects = {
     {
       image: require("./assets/images/benendenLogo.png"),
       projectName: "Azure Migration & Office 365 Transformation",
-      projectDesc: "Project workstream lead for comprehensive Azure migration and O365 transformation across healthcare organization, ensuring zero-downtime transitions and GDPR compliance.",
+      projectDesc:
+        "Project workstream lead for comprehensive Azure migration and O365 transformation across healthcare organization, ensuring zero-downtime transitions and GDPR compliance.",
       footerLink: [
         {
           name: "Learn More",
@@ -444,7 +446,8 @@ const achievementSection = {
     },
     {
       title: "DevOps & Automation Specialist",
-      subtitle: "Proven track record in CI/CD pipeline automation, infrastructure as code with Terraform, and achieving 60% reduction in operational overhead through PowerShell, Ruby, and Groovy automation.",
+      subtitle:
+        "Proven track record in CI/CD pipeline automation, infrastructure as code with Terraform, and achieving 60% reduction in operational overhead through PowerShell, Ruby, and Groovy automation.",
       image: require("./assets/images/devop logo.png"),
       imageAlt: "DevOps Excellence Logo",
       footerLink: [
