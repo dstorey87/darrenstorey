@@ -50,9 +50,9 @@ export default function Security() {
                     {section.description}
                   </p>
                   <ul className="security-list">
-                    {section.points.map((point, i) => (
+                    {section.skills.map((skill, i) => (
                       <li key={i} className={isDark ? "dark-mode security-list-item" : "security-list-item"}>
-                        {point}
+                        {skill}
                       </li>
                     ))}
                   </ul>
