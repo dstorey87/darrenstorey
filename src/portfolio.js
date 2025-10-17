@@ -542,6 +542,106 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+// Security Section
+
+const securitySection = {
+  title: emoji("Security & Compliance Expertise 🔒"),
+  subtitle:
+    "Delivering enterprise-grade security and compliance across cloud infrastructure and DevOps pipelines",
+  display: true,
+  sections: [
+    {
+      icon: "🛡️",
+      title: "Regulatory Compliance",
+      description:
+        "Expert in implementing and maintaining compliance frameworks in highly regulated financial services environments.",
+      points: [
+        "FCA (Financial Conduct Authority) compliance for financial services infrastructure",
+        "GDPR data protection and privacy controls across all cloud services",
+        "ISO 27001 information security management system implementation",
+        "SOC 2 controls for secure service delivery and data handling",
+        "Regular compliance audits, risk assessments, and remediation planning",
+        "Automated compliance reporting and evidence collection pipelines"
+      ]
+    },
+    {
+      icon: "🔐",
+      title: "Cloud Security Architecture",
+      description:
+        "Architecting secure, multi-layered cloud infrastructure with defense-in-depth principles.",
+      points: [
+        "AWS VPC design with private subnets, security groups, and NACLs",
+        "Identity and Access Management (IAM) with least-privilege policies",
+        "Encryption at rest and in transit for all data storage (S3, FSx, RDS)",
+        "AWS KMS for key management and envelope encryption strategies",
+        "Multi-factor authentication (MFA) enforcement across all access points",
+        "VPN and Direct Connect for secure hybrid cloud connectivity",
+        "AWS GuardDuty, Security Hub, and Config for continuous monitoring"
+      ]
+    },
+    {
+      icon: "🔒",
+      title: "Secure DevOps Pipelines",
+      description:
+        "Building security into CI/CD pipelines with automated gates and vulnerability scanning.",
+      points: [
+        "Static Application Security Testing (SAST) integrated into build pipelines",
+        "Infrastructure as Code (IaC) security scanning with tools like Checkov",
+        "Container image scanning and vulnerability management",
+        "Secret management with AWS Secrets Manager and HashiCorp Vault",
+        "Automated security testing gates preventing insecure deployments",
+        "Code signing and artifact verification for supply chain security",
+        "Immutable infrastructure patterns reducing attack surface"
+      ]
+    },
+    {
+      icon: "👁️",
+      title: "Security Monitoring & Incident Response",
+      description:
+        "24/7 security monitoring with rapid incident detection and response capabilities.",
+      points: [
+        "Centralized logging with CloudWatch, CloudTrail, and SIEM integration",
+        "Real-time alerting for security events and anomalous behavior",
+        "Automated incident response playbooks and runbooks",
+        "Forensic investigation capabilities with detailed audit trails",
+        "Regular security incident simulations and tabletop exercises",
+        "Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR) tracking",
+        "Post-incident review and continuous security improvement"
+      ]
+    },
+    {
+      icon: "🔑",
+      title: "Access Control & Authentication",
+      description:
+        "Implementing robust access controls and authentication mechanisms across infrastructure.",
+      points: [
+        "Role-Based Access Control (RBAC) with separation of duties",
+        "Single Sign-On (SSO) integration with Azure AD and Okta",
+        "Privileged Access Management (PAM) for administrative accounts",
+        "Just-in-Time (JIT) access provisioning for temporary elevated permissions",
+        "Session recording and audit logging for privileged operations",
+        "Regular access reviews and automated deprovisioning workflows",
+        "Zero Trust architecture principles in network segmentation"
+      ]
+    },
+    {
+      icon: "🛠️",
+      title: "Vulnerability & Patch Management",
+      description:
+        "Proactive vulnerability management with automated patching and remediation workflows.",
+      points: [
+        "Automated vulnerability scanning across all infrastructure components",
+        "Risk-based prioritization of security patches and updates",
+        "Automated patching pipelines for Windows and Linux systems",
+        "Zero-downtime patching strategies with blue/green deployments",
+        "Vulnerability disclosure and remediation SLA tracking",
+        "Security baseline configurations and hardening standards",
+        "Regular penetration testing and security assessments"
+      ]
+    }
+  ]
+};
+
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
@@ -562,5 +662,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  securitySection
 };
